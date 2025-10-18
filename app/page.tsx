@@ -59,20 +59,22 @@ export default function Home() {
             <AnimatedSection direction="left" delay={0.2}>
               <div className="space-y-4">
                 <p className="text-lg text-gray-700 dark:text-gray-300">
-                  I'm an AI Engineer with expertise in data science, machine
-                  learning, and deep learning. My passion lies in building
-                  intelligent systems that solve real-world problems.
+                  I am Thabiso Rantsho, a Junior Web Developer based in Welkom,
+                  [cite_start]South Africa[cite: 6]. My passion lies in crafting
+                  dynamic and user-friendly web experiences.
                 </p>
                 <p className="text-lg text-gray-700 dark:text-gray-300">
-                  With a strong background in predictive modeling,
-                  classification, and data analysis, I specialize in developing
-                  and deploying AI solutions that drive business value.
+                  I have hands-on experience from my time at Monsfi Marketing,
+                  where I built websites for various clients, and as a Junior
+                  Software Developer Intern at the University of Cape Town,
+                  [cite_start]contributing to software evolution and UI
+                  enhancements[cite: 7, 32].
                 </p>
                 <p className="text-lg text-gray-700 dark:text-gray-300">
-                  I'm proficient in Python and ML frameworks like TensorFlow,
-                  scikit-learn, and OpenCV, and have experience integrating APIs
-                  like OpenAI, Gemini, and other LLMs for chatbot development
-                  and automation.
+                  My technical skills include JavaScript, Python, C++, Java,
+                  [cite_start]and various web technologies like WordPress, HTML,
+                  and CSS[cite: 8, 28, 29]. I am always eager to learn and apply
+                  new technologies to solve real-world problems.
                 </p>
               </div>
             </AnimatedSection>
@@ -84,31 +86,32 @@ export default function Home() {
                   <li className="flex items-start group">
                     <ChevronRight className="w-5 h-5 text-purple-600 mt-0.5 flex-shrink-0 transform group-hover:translate-x-1 transition-transform duration-300" />
                     <span className="text-gray-700 dark:text-gray-300">
-                      Machine Learning & Deep Learning Model Development
+                      Full-Stack Web Development
                     </span>
                   </li>
                   <li className="flex items-start group">
                     <ChevronRight className="w-5 h-5 text-purple-600 mt-0.5 flex-shrink-0 transform group-hover:translate-x-1 transition-transform duration-300" />
                     <span className="text-gray-700 dark:text-gray-300">
-                      LLM Integration & Fine-tuning
+                      [cite_start]UI Development with HTML/CSS & JavaScript
+                      [cite: 28, 29]
                     </span>
                   </li>
                   <li className="flex items-start group">
                     <ChevronRight className="w-5 h-5 text-purple-600 mt-0.5 flex-shrink-0 transform group-hover:translate-x-1 transition-transform duration-300" />
                     <span className="text-gray-700 dark:text-gray-300">
-                      Model Deployment & CI/CD Pipelines
+                      [cite_start]Backend Development with .NET [cite: 32, 35]
                     </span>
                   </li>
                   <li className="flex items-start group">
                     <ChevronRight className="w-5 h-5 text-purple-600 mt-0.5 flex-shrink-0 transform group-hover:translate-x-1 transition-transform duration-300" />
                     <span className="text-gray-700 dark:text-gray-300">
-                      Computer Vision & NLP Applications
+                      [cite_start]Agile & Scrum Methodologies [cite: 34]
                     </span>
                   </li>
                   <li className="flex items-start group">
                     <ChevronRight className="w-5 h-5 text-purple-600 mt-0.5 flex-shrink-0 transform group-hover:translate-x-1 transition-transform duration-300" />
                     <span className="text-gray-700 dark:text-gray-300">
-                      Speech Recognition & TTS Systems
+                      [cite_start]SEO Optimization & Analytics [cite: 27]
                     </span>
                   </li>
                 </ul>
@@ -135,24 +138,29 @@ export default function Home() {
               <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 border-l-4 border-purple-600 hover:-translate-y-1 transition-transform duration-300">
                 <div className="flex flex-col md:flex-row md:items-center justify-between mb-4">
                   <div>
-                    <h3 className="text-xl font-bold">AI Engineer</h3>
+                    <h3 className="text-xl font-bold">Web developer</h3>
                     <p className="text-purple-600 dark:text-purple-400 font-medium">
-                      ZettaMight
+                      [cite_start]Monsfi Marketing, Cape Town, WP [cite: 24]
                     </p>
                   </div>
                   <p className="text-gray-600 dark:text-gray-400 mt-2 md:mt-0">
-                    Dec 2024 - Present
+                    [cite_start]Jun '24 - Feb '25 [cite: 25]
                   </p>
                 </div>
                 <ul className="space-y-2 list-disc list-inside text-gray-700 dark:text-gray-300">
                   <li>
-                    Designed and implemented ML/DL models for NLP and computer
-                    vision tasks in real-world client projects, leveraging
-                    Python and GCP services.
+                    Crafted websites for diverse clients, elevating online
+                    [cite_start]sales & enhancing user engagement metrics[cite:
+                    26].
                   </li>
                   <li>
-                    Collaborated with cross-functional teams to deploy scalable
-                    AI solutions, integrating Gemini models and APIs.
+                    Boosted organic traffic by 50% and enhanced lead generation
+                    through SEO optimization utilizing Google
+                    [cite_start]Analytics[cite: 27].
+                  </li>
+                  <li>
+                    Executed updates for WP sites using WordPress CMS & Custom
+                    [cite_start]CSS/HTML to boost user engagement[cite: 28].
                   </li>
                 </ul>
               </div>
@@ -162,23 +170,32 @@ export default function Home() {
               <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 border-l-4 border-purple-600 hover:-translate-y-1 transition-transform duration-300">
                 <div className="flex flex-col md:flex-row md:items-center justify-between mb-4">
                   <div>
-                    <h3 className="text-xl font-bold">Notebook Expert</h3>
+                    <h3 className="text-xl font-bold">
+                      Junior Software Developer Intern
+                    </h3>
                     <p className="text-purple-600 dark:text-purple-400 font-medium">
-                      Kaggle
+                      [cite_start]University of Cape Town and Freshgold, Cape
+                      Town, WP [cite: 30]
                     </p>
                   </div>
                   <p className="text-gray-600 dark:text-gray-400 mt-2 md:mt-0">
-                    Dec 2023 - Present
+                    [cite_start]Jan '21 - Nov '21 [cite: 31]
                   </p>
                 </div>
                 <ul className="space-y-2 list-disc list-inside text-gray-700 dark:text-gray-300">
                   <li>
-                    Demonstrated machine learning and deep learning skills by
-                    creating notebooks.
+                    Played a key role in evolving software in .net through a
+                    final year project, resulting in a 20% efficiency increase
+                    [cite_start]& UI enhancements[cite: 32].
                   </li>
                   <li>
-                    Participated in four competitions, published 19 notebooks
-                    with 139 upvotes and 59 forks.
+                    Propelled client satisfaction by introducing Freshgold Docs
+                    as an innovative solution, resulting in a 20% boost
+                    [cite_start]in client contentment[cite: 33].
+                  </li>
+                  <li>
+                    Steered software design & development process using agile &
+                    [cite_start]scrum methodologies[cite: 34].
                   </li>
                 </ul>
               </div>
@@ -188,47 +205,23 @@ export default function Home() {
               <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 border-l-4 border-purple-600 hover:-translate-y-1 transition-transform duration-300">
                 <div className="flex flex-col md:flex-row md:items-center justify-between mb-4">
                   <div>
-                    <h3 className="text-xl font-bold">Co-Head Automation</h3>
-                    <p className="text-purple-600 dark:text-purple-400 font-medium">
-                      Procom'24
-                    </p>
-                  </div>
-                  <p className="text-gray-600 dark:text-gray-400 mt-2 md:mt-0">
-                    October 2023 - March 2024
-                  </p>
-                </div>
-                <ul className="space-y-2 list-disc list-inside text-gray-700 dark:text-gray-300">
-                  <li>
-                    Led seamless team collaboration and designed a cutting-edge
-                    chatbot.
-                  </li>
-                </ul>
-              </div>
-            </AnimatedSection>
-
-            <AnimatedSection delay={0.5}>
-              <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 border-l-4 border-purple-600 hover:-translate-y-1 transition-transform duration-300">
-                <div className="flex flex-col md:flex-row md:items-center justify-between mb-4">
-                  <div>
                     <h3 className="text-xl font-bold">
-                      Coordinator, Data Science Team
+                      Junior Business Analyst Intern
                     </h3>
                     <p className="text-purple-600 dark:text-purple-400 font-medium">
-                      Google Developer Student Club
+                      [cite_start]University of Cape Town, Cape Town, WP [cite:
+                      36]
                     </p>
                   </div>
                   <p className="text-gray-600 dark:text-gray-400 mt-2 md:mt-0">
-                    Nov 2022 - Nov 2023
+                    [cite_start]Jul '21 - Sep '21 [cite: 37]
                   </p>
                 </div>
                 <ul className="space-y-2 list-disc list-inside text-gray-700 dark:text-gray-300">
                   <li>
-                    Facilitated learning in ML and data science basics,
-                    mentoring team members effectively.
-                  </li>
-                  <li>
-                    Dedicated to advancing data science education and
-                    innovation.
+                    Pitched for funding & secured investment for a new patented
+                    business case, utilizing financial modeling and
+                    [cite_start]market research[cite: 38].
                   </li>
                 </ul>
               </div>
@@ -253,64 +246,77 @@ export default function Home() {
             <AnimatedCard delay={0.2}>
               <Card className="h-full border-0 shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <CardHeader>
-                  <CardTitle>
-                    EarthRenewal AI Farmer Assistant Chatbot
-                  </CardTitle>
+                  <CardTitle>Client Website Development</CardTitle>
                   <CardDescription>
-                    AI-driven agricultural assistant
+                    Custom WordPress sites with SEO optimization
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
                   <div className="aspect-video relative rounded-md overflow-hidden mb-4 bg-gray-100 dark:bg-gray-700 transform transition-transform duration-500 hover:scale-[1.02]">
                     <Image
                       src="/placeholder.svg?height=240&width=400"
-                      alt="EarthRenewal AI"
+                      alt="Client Website Development"
                       fill
                       className="object-cover"
                     />
                     <div className="absolute inset-0 bg-gradient-to-tr from-purple-600/20 to-blue-600/20 opacity-0 hover:opacity-100 transition-opacity duration-300" />
                   </div>
                   <p className="text-gray-700 dark:text-gray-300">
-                    Built an AI-driven chatbot to assist farmers with
-                    agricultural recommendations, integrating multilingual
-                    support and real-time query resolution.
+                    Developed and maintained websites for a diverse range of
+                    clients at Monsfi Marketing, focusing on enhancing online
+                    sales and user engagement. Implemented SEO best practices to
+                    [cite_start]boost organic traffic[cite: 26, 27].
                   </p>
                   <div className="flex flex-wrap gap-2 mt-4">
                     <Badge
                       variant="outline"
                       className="bg-purple-100/50 dark:bg-purple-900/50 hover:bg-purple-200 transition-colors duration-300"
                     >
-                      NLP
+                      [cite_start]WordPress [cite: 29]
                     </Badge>
                     <Badge
                       variant="outline"
                       className="bg-purple-100/50 dark:bg-purple-900/50 hover:bg-purple-200 transition-colors duration-300"
                     >
-                      LLM
+                      [cite_start]HTML [cite: 29]
                     </Badge>
                     <Badge
                       variant="outline"
                       className="bg-purple-100/50 dark:bg-purple-900/50 hover:bg-purple-200 transition-colors duration-300"
                     >
-                      Python
+                      [cite_start]CSS [cite: 28]
                     </Badge>
                     <Badge
                       variant="outline"
                       className="bg-purple-100/50 dark:bg-purple-900/50 hover:bg-purple-200 transition-colors duration-300"
                     >
-                      Multilingual
+                      [cite_start]JavaScript [cite: 29]
+                    </Badge>
+                    <Badge
+                      variant="outline"
+                      className="bg-purple-100/50 dark:bg-purple-900/50 hover:bg-purple-200 transition-colors duration-300"
+                    >
+                      [cite_start]SEO [cite: 27]
                     </Badge>
                   </div>
                 </CardContent>
                 <CardFooter>
                   <Button
+                    asChild
                     variant="outline"
                     className="w-full relative overflow-hidden group bg-transparent"
-                    disabled
                   >
-                    <ExternalLink className="w-4 h-4 mr-2" />
-                    <span className="relative z-10">View Project</span>
-                    <span className="absolute inset-0 bg-purple-600 opacity-0 group-hover:opacity-1 transition-opacity duration-300"></span>
+                    <Link
+                      href="https://superusert.github.io/React-Portfolio-Site/"
+                      target="_blank"
+                    >
+                      <ExternalLink className="w-4 h-4 mr-2" />
+                      [cite_start]
+                      <span className="relative z-10">
+                        View Portfolio [cite: 52]
+                      </span>
+                      <span className="absolute inset-0 bg-purple-600 opacity-0 group-hover:opacity-1 transition-opacity duration-300"></span>
+                    </Link>
                   </Button>
                 </CardFooter>
               </Card>
@@ -319,178 +325,72 @@ export default function Home() {
             <AnimatedCard delay={0.3}>
               <Card className="h-full border-0 shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <CardHeader>
-                  <CardTitle>Authentrix - Profile Verification</CardTitle>
+                  <CardTitle>.NET Enterprise Software Enhancement</CardTitle>
                   <CardDescription>
-                    AI-based trust scoring system
+                    UI improvements and feature development
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
                   <div className="aspect-video relative rounded-md overflow-hidden mb-4 bg-gray-100 dark:bg-gray-700 transform transition-transform duration-500 hover:scale-[1.02]">
                     <Image
                       src="/placeholder.svg?height=240&width=400"
-                      alt="Authentrix"
+                      alt=".NET Project"
                       fill
                       className="object-cover"
                     />
                     <div className="absolute inset-0 bg-gradient-to-tr from-purple-600/20 to-blue-600/20 opacity-0 hover:opacity-100 transition-opacity duration-300" />
                   </div>
                   <p className="text-gray-700 dark:text-gray-300">
-                    Developed an AI-based trust scoring system for user profile
-                    verification, incorporating CI/CD pipelines and model
-                    monitoring for deployment.
+                    Contributed to a final year project with Freshgold to evolve
+                    a .NET software solution. Key contributions included
+                    implementing UI enhancements and developing new features,
+                    leading to increased efficiency and client
+                    [cite_start]satisfaction[cite: 32, 33].
                   </p>
                   <div className="flex flex-wrap gap-2 mt-4">
                     <Badge
                       variant="outline"
                       className="bg-purple-100/50 dark:bg-purple-900/50 hover:bg-purple-200 transition-colors duration-300"
                     >
-                      Machine Learning
+                      [cite_start]ASP.NET [cite: 35]
                     </Badge>
                     <Badge
                       variant="outline"
                       className="bg-purple-100/50 dark:bg-purple-900/50 hover:bg-purple-200 transition-colors duration-300"
                     >
-                      CI/CD
+                      [cite_start]Azure [cite: 35]
                     </Badge>
                     <Badge
                       variant="outline"
                       className="bg-purple-100/50 dark:bg-purple-900/50 hover:bg-purple-200 transition-colors duration-300"
                     >
-                      Model Monitoring
+                      [cite_start]HTML [cite: 35]
+                    </Badge>
+                    <Badge
+                      variant="outline"
+                      className="bg-purple-100/50 dark:bg-purple-900/50 hover:bg-purple-200 transition-colors duration-300"
+                    >
+                      [cite_start]Git [cite: 35]
                     </Badge>
                   </div>
                 </CardContent>
                 <CardFooter>
                   <Button
+                    asChild
                     variant="outline"
                     className="w-full relative overflow-hidden group bg-transparent"
-                    disabled
                   >
-                    <ExternalLink className="w-4 h-4 mr-2" />
-                    <span className="relative z-10">View Project</span>
-                    <span className="absolute inset-0 bg-purple-600 opacity-0 group-hover:opacity-1 transition-opacity duration-300"></span>
-                  </Button>
-                </CardFooter>
-              </Card>
-            </AnimatedCard>
-
-            <AnimatedCard delay={0.4}>
-              <Card className="h-full border-0 shadow-lg hover:shadow-xl transition-shadow duration-300">
-                <CardHeader>
-                  <CardTitle>Customer Bank Churn Prediction</CardTitle>
-                  <CardDescription>
-                    Classification model for customer retention
-                  </CardDescription>
-                </CardHeader>
-                <CardContent>
-                  <div className="aspect-video relative rounded-md overflow-hidden mb-4 bg-gray-100 dark:bg-gray-700 transform transition-transform duration-500 hover:scale-[1.02]">
-                    <Image
-                      src="/placeholder.svg?height=240&width=400"
-                      alt="Churn Prediction"
-                      fill
-                      className="object-cover"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-tr from-purple-600/20 to-blue-600/20 opacity-0 hover:opacity-100 transition-opacity duration-300" />
-                  </div>
-                  <p className="text-gray-700 dark:text-gray-300">
-                    Developed a classification model to predict customer churn
-                    using Random Forest, Logistic Regression, SVM, and LightGBM,
-                    achieving 90% accuracy.
-                  </p>
-                  <div className="flex flex-wrap gap-2 mt-4">
-                    <Badge
-                      variant="outline"
-                      className="bg-purple-100/50 dark:bg-purple-900/50 hover:bg-purple-200 transition-colors duration-300"
+                    <Link
+                      href="https://superusert.github.io/React-Portfolio-Site/"
+                      target="_blank"
                     >
-                      Random Forest
-                    </Badge>
-                    <Badge
-                      variant="outline"
-                      className="bg-purple-100/50 dark:bg-purple-900/50 hover:bg-purple-200 transition-colors duration-300"
-                    >
-                      SVM
-                    </Badge>
-                    <Badge
-                      variant="outline"
-                      className="bg-purple-100/50 dark:bg-purple-900/50 hover:bg-purple-200 transition-colors duration-300"
-                    >
-                      LightGBM
-                    </Badge>
-                    <Badge
-                      variant="outline"
-                      className="bg-purple-100/50 dark:bg-purple-900/50 hover:bg-purple-200 transition-colors duration-300"
-                    >
-                      Classification
-                    </Badge>
-                  </div>
-                </CardContent>
-                <CardFooter>
-                  <Button
-                    variant="outline"
-                    className="w-full relative overflow-hidden group bg-transparent"
-                    disabled
-                  >
-                    <ExternalLink className="w-4 h-4 mr-2" />
-                    <span className="relative z-10">View Project</span>
-                    <span className="absolute inset-0 bg-purple-600 opacity-0 group-hover:opacity-10 transition-opacity duration-300"></span>
-                  </Button>
-                </CardFooter>
-              </Card>
-            </AnimatedCard>
-
-            <AnimatedCard delay={0.5}>
-              <Card className="h-full border-0 shadow-lg hover:shadow-xl transition-shadow duration-300">
-                <CardHeader>
-                  <CardTitle>Fastly</CardTitle>
-                  <CardDescription>
-                    University admission chatbot
-                  </CardDescription>
-                </CardHeader>
-                <CardContent>
-                  <div className="aspect-video relative rounded-md overflow-hidden mb-4 bg-gray-100 dark:bg-gray-700 transform transition-transform duration-500 hover:scale-[1.02]">
-                    <Image
-                      src="/placeholder.svg?height=240&width=400"
-                      alt="Fastly Chatbot"
-                      fill
-                      className="object-cover"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-tr from-purple-600/20 to-blue-600/20 opacity-0 hover:opacity-100 transition-opacity duration-300" />
-                  </div>
-                  <p className="text-gray-700 dark:text-gray-300">
-                    Designed a chatbot for university admission queries using
-                    NLP and LSTM, providing automated assistance to prospective
-                    students.
-                  </p>
-                  <div className="flex flex-wrap gap-2 mt-4">
-                    <Badge
-                      variant="outline"
-                      className="bg-purple-100/50 dark:bg-purple-900/50 hover:bg-purple-200 transition-colors duration-300"
-                    >
-                      NLP
-                    </Badge>
-                    <Badge
-                      variant="outline"
-                      className="bg-purple-100/50 dark:bg-purple-900/50 hover:bg-purple-200 transition-colors duration-300"
-                    >
-                      LSTM
-                    </Badge>
-                    <Badge
-                      variant="outline"
-                      className="bg-purple-100/50 dark:bg-purple-900/50 hover:bg-purple-200 transition-colors duration-300"
-                    >
-                      Chatbot
-                    </Badge>
-                  </div>
-                </CardContent>
-                <CardFooter>
-                  <Button
-                    variant="outline"
-                    className="w-full relative overflow-hidden group bg-transparent"
-                    disabled
-                  >
-                    <ExternalLink className="w-4 h-4 mr-2" />
-                    <span className="relative z-10">View Project</span>
-                    <span className="absolute inset-0 bg-purple-600 opacity-0 group-hover:opacity-10 transition-opacity duration-300"></span>
+                      <ExternalLink className="w-4 h-4 mr-2" />
+                      [cite_start]
+                      <span className="relative z-10">
+                        View Portfolio [cite: 52]
+                      </span>
+                      <span className="absolute inset-0 bg-purple-600 opacity-0 group-hover:opacity-10 transition-opacity duration-300"></span>
+                    </Link>
                   </Button>
                 </CardFooter>
               </Card>
@@ -518,10 +418,10 @@ export default function Home() {
                   <CardTitle className="flex items-center">
                     <span className="w-8 h-8 rounded-full bg-purple-100 dark:bg-purple-900 flex items-center justify-center mr-2">
                       <span className="text-purple-600 dark:text-purple-300 text-sm font-bold">
-                        AI
+                        PROG
                       </span>
                     </span>
-                    AI & Machine Learning
+                    Programming & Languages
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
@@ -530,49 +430,49 @@ export default function Home() {
                       variant="secondary"
                       className="justify-center py-2 hover:bg-purple-100 dark:hover:bg-purple-900/50 transition-colors"
                     >
-                      Machine Learning
+                      [cite_start]JavaScript [cite: 50]
                     </Badge>
                     <Badge
                       variant="secondary"
                       className="justify-center py-2 hover:bg-purple-100 dark:hover:bg-purple-900/50 transition-colors"
                     >
-                      Deep Learning
+                      [cite_start]Python [cite: 50]
                     </Badge>
                     <Badge
                       variant="secondary"
                       className="justify-center py-2 hover:bg-purple-100 dark:hover:bg-purple-900/50 transition-colors"
                     >
-                      Neural Networks
+                      [cite_start]C [cite: 51]
                     </Badge>
                     <Badge
                       variant="secondary"
                       className="justify-center py-2 hover:bg-purple-100 dark:hover:bg-purple-900/50 transition-colors"
                     >
-                      Computer Vision
+                      [cite_start]C# [cite: 51]
                     </Badge>
                     <Badge
                       variant="secondary"
                       className="justify-center py-2 hover:bg-purple-100 dark:hover:bg-purple-900/50 transition-colors"
                     >
-                      NLP
+                      [cite_start]Java [cite: 8]
                     </Badge>
                     <Badge
                       variant="secondary"
                       className="justify-center py-2 hover:bg-purple-100 dark:hover:bg-purple-900/50 transition-colors"
                     >
-                      Model Fine-Tuning
+                      [cite_start]TypeScript [cite: 51]
                     </Badge>
                     <Badge
                       variant="secondary"
                       className="justify-center py-2 hover:bg-purple-100 dark:hover:bg-purple-900/50 transition-colors"
                     >
-                      Feature Engineering
+                      [cite_start]HTML [cite: 29]
                     </Badge>
                     <Badge
                       variant="secondary"
                       className="justify-center py-2 hover:bg-purple-100 dark:hover:bg-purple-900/50 transition-colors"
                     >
-                      Pretrained Models
+                      [cite_start]C++ [cite: 8]
                     </Badge>
                   </div>
                 </CardContent>
@@ -585,10 +485,10 @@ export default function Home() {
                   <CardTitle className="flex items-center">
                     <span className="w-8 h-8 rounded-full bg-blue-100 dark:bg-blue-900 flex items-center justify-center mr-2">
                       <span className="text-blue-600 dark:text-blue-300 text-sm font-bold">
-                        DEV
+                        TECH
                       </span>
                     </span>
-                    Programming & Frameworks
+                    Frameworks & Technologies
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
@@ -597,49 +497,19 @@ export default function Home() {
                       variant="secondary"
                       className="justify-center py-2 hover:bg-blue-100 dark:hover:bg-blue-900/50 transition-colors"
                     >
-                      Python
+                      [cite_start]ASP.NET [cite: 35]
                     </Badge>
                     <Badge
                       variant="secondary"
                       className="justify-center py-2 hover:bg-blue-100 dark:hover:bg-blue-900/50 transition-colors"
                     >
-                      TensorFlow
+                      [cite_start]React Native [cite: 51]
                     </Badge>
                     <Badge
                       variant="secondary"
                       className="justify-center py-2 hover:bg-blue-100 dark:hover:bg-blue-900/50 transition-colors"
                     >
-                      PyTorch
-                    </Badge>
-                    <Badge
-                      variant="secondary"
-                      className="justify-center py-2 hover:bg-blue-100 dark:hover:bg-blue-900/50 transition-colors"
-                    >
-                      Scikit-learn
-                    </Badge>
-                    <Badge
-                      variant="secondary"
-                      className="justify-center py-2 hover:bg-blue-100 dark:hover:bg-blue-900/50 transition-colors"
-                    >
-                      OpenCV
-                    </Badge>
-                    <Badge
-                      variant="secondary"
-                      className="justify-center py-2 hover:bg-blue-100 dark:hover:bg-blue-900/50 transition-colors"
-                    >
-                      Flask/FastAPI
-                    </Badge>
-                    <Badge
-                      variant="secondary"
-                      className="justify-center py-2 hover:bg-blue-100 dark:hover:bg-blue-900/50 transition-colors"
-                    >
-                      Java
-                    </Badge>
-                    <Badge
-                      variant="secondary"
-                      className="justify-center py-2 hover:bg-blue-100 dark:hover:bg-blue-900/50 transition-colors"
-                    >
-                      C++/C
+                      [cite_start]WordPress [cite: 29]
                     </Badge>
                   </div>
                 </CardContent>
@@ -657,7 +527,7 @@ export default function Home() {
                         DATA
                       </span>
                     </span>
-                    Data Science & Analytics
+                    Databases & Platforms
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
@@ -666,49 +536,25 @@ export default function Home() {
                       variant="secondary"
                       className="justify-center py-2 hover:bg-green-100 dark:hover:bg-green-900/50 transition-colors"
                     >
-                      Data Analysis
+                      [cite_start]Postgres [cite: 51]
                     </Badge>
                     <Badge
                       variant="secondary"
                       className="justify-center py-2 hover:bg-green-100 dark:hover:bg-green-900/50 transition-colors"
                     >
-                      Pandas & NumPy
+                      [cite_start]MongoDB [cite: 51]
                     </Badge>
                     <Badge
                       variant="secondary"
                       className="justify-center py-2 hover:bg-green-100 dark:hover:bg-green-900/50 transition-colors"
                     >
-                      Data Visualization
+                      [cite_start]JSON [cite: 51]
                     </Badge>
                     <Badge
                       variant="secondary"
                       className="justify-center py-2 hover:bg-green-100 dark:hover:bg-green-900/50 transition-colors"
                     >
-                      Statistical Analysis
-                    </Badge>
-                    <Badge
-                      variant="secondary"
-                      className="justify-center py-2 hover:bg-green-100 dark:hover:bg-green-900/50 transition-colors"
-                    >
-                      SQL
-                    </Badge>
-                    <Badge
-                      variant="secondary"
-                      className="justify-center py-2 hover:bg-green-100 dark:hover:bg-green-900/50 transition-colors"
-                    >
-                      Jupyter Notebooks
-                    </Badge>
-                    <Badge
-                      variant="secondary"
-                      className="justify-center py-2 hover:bg-green-100 dark:hover:bg-green-900/50 transition-colors"
-                    >
-                      Matplotlib/Seaborn
-                    </Badge>
-                    <Badge
-                      variant="secondary"
-                      className="justify-center py-2 hover:bg-green-100 dark:hover:bg-green-900/50 transition-colors"
-                    >
-                      Data Preprocessing
+                      [cite_start]Azure [cite: 35]
                     </Badge>
                   </div>
                 </CardContent>
@@ -721,10 +567,10 @@ export default function Home() {
                   <CardTitle className="flex items-center">
                     <span className="w-8 h-8 rounded-full bg-orange-100 dark:bg-orange-900 flex items-center justify-center mr-2">
                       <span className="text-orange-600 dark:text-orange-300 text-sm font-bold">
-                        OPS
+                        TOOLS
                       </span>
                     </span>
-                    MLOps & Integration
+                    Tools & Methodologies
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
@@ -733,138 +579,37 @@ export default function Home() {
                       variant="secondary"
                       className="justify-center py-2 hover:bg-orange-100 dark:hover:bg-orange-900/50 transition-colors"
                     >
-                      Model Deployment
+                      [cite_start]Git [cite: 51]
                     </Badge>
                     <Badge
                       variant="secondary"
                       className="justify-center py-2 hover:bg-orange-100 dark:hover:bg-orange-900/50 transition-colors"
                     >
-                      API Integration
+                      [cite_start]Agile [cite: 34]
                     </Badge>
                     <Badge
                       variant="secondary"
                       className="justify-center py-2 hover:bg-orange-100 dark:hover:bg-orange-900/50 transition-colors"
                     >
-                      LLM APIs
+                      [cite_start]Scrum [cite: 34]
                     </Badge>
                     <Badge
                       variant="secondary"
                       className="justify-center py-2 hover:bg-orange-100 dark:hover:bg-orange-900/50 transition-colors"
                     >
-                      CI/CD Pipelines
+                      [cite_start]SEO [cite: 27]
                     </Badge>
                     <Badge
                       variant="secondary"
                       className="justify-center py-2 hover:bg-orange-100 dark:hover:bg-orange-900/50 transition-colors"
                     >
-                      Model Monitoring
-                    </Badge>
-                    <Badge
-                      variant="secondary"
-                      className="justify-center py-2 hover:bg-orange-100 dark:hover:bg-orange-900/50 transition-colors"
-                    >
-                      Docker
-                    </Badge>
-                    <Badge
-                      variant="secondary"
-                      className="justify-center py-2 hover:bg-orange-100 dark:hover:bg-orange-900/50 transition-colors"
-                    >
-                      Git/GitHub
-                    </Badge>
-                    <Badge
-                      variant="secondary"
-                      className="justify-center py-2 hover:bg-orange-100 dark:hover:bg-orange-900/50 transition-colors"
-                    >
-                      Cloud Platforms
+                      [cite_start]Google Analytics [cite: 27]
                     </Badge>
                   </div>
                 </CardContent>
               </Card>
             </AnimatedSection>
           </div>
-
-          {/* Additional Skills Tags */}
-          <AnimatedSection delay={0.6}>
-            <div className="mt-12 text-center">
-              <h3 className="text-xl font-semibold mb-6">
-                Additional Technologies
-              </h3>
-              <div className="flex flex-wrap justify-center gap-3">
-                <Badge
-                  variant="outline"
-                  className="px-4 py-2 text-sm bg-purple-50 dark:bg-purple-900/20 border-purple-200 dark:border-purple-800 hover:bg-purple-100 dark:hover:bg-purple-900/40 transition-colors"
-                >
-                  Hugging Face
-                </Badge>
-                <Badge
-                  variant="outline"
-                  className="px-4 py-2 text-sm bg-blue-50 dark:bg-blue-900/20 border-blue-200 dark:border-blue-800 hover:bg-blue-100 dark:hover:bg-blue-900/40 transition-colors"
-                >
-                  Transformers
-                </Badge>
-                <Badge
-                  variant="outline"
-                  className="px-4 py-2 text-sm bg-green-50 dark:bg-green-900/20 border-green-200 dark:border-green-800 hover:bg-green-100 dark:hover:bg-green-900/40 transition-colors"
-                >
-                  NLTK
-                </Badge>
-                <Badge
-                  variant="outline"
-                  className="px-4 py-2 text-sm bg-yellow-50 dark:bg-yellow-900/20 border-yellow-200 dark:border-yellow-800 hover:bg-yellow-100 dark:hover:bg-yellow-900/40 transition-colors"
-                >
-                  spaCy
-                </Badge>
-                <Badge
-                  variant="outline"
-                  className="px-4 py-2 text-sm bg-red-50 dark:bg-red-900/20 border-red-200 dark:border-red-800 hover:bg-red-100 dark:hover:bg-red-900/40 transition-colors"
-                >
-                  Streamlit
-                </Badge>
-                <Badge
-                  variant="outline"
-                  className="px-4 py-2 text-sm bg-indigo-50 dark:bg-indigo-900/20 border-indigo-200 dark:border-indigo-800 hover:bg-indigo-100 dark:hover:bg-indigo-900/40 transition-colors"
-                >
-                  Gradio
-                </Badge>
-                <Badge
-                  variant="outline"
-                  className="px-4 py-2 text-sm bg-pink-50 dark:bg-pink-900/20 border-pink-200 dark:border-pink-800 hover:bg-pink-100 dark:hover:bg-pink-900/40 transition-colors"
-                >
-                  Whisper
-                </Badge>
-                <Badge
-                  variant="outline"
-                  className="px-4 py-2 text-sm bg-teal-50 dark:bg-teal-900/20 border-teal-200 dark:border-teal-800 hover:bg-teal-100 dark:hover:bg-teal-900/40 transition-colors"
-                >
-                  LangChain
-                </Badge>
-                <Badge
-                  variant="outline"
-                  className="px-4 py-2 text-sm bg-cyan-50 dark:bg-cyan-900/20 border-cyan-200 dark:border-cyan-800 hover:bg-cyan-100 dark:hover:bg-cyan-900/40 transition-colors"
-                >
-                  MongoDB
-                </Badge>
-                <Badge
-                  variant="outline"
-                  className="px-4 py-2 text-sm bg-violet-50 dark:bg-violet-900/20 border-violet-200 dark:border-violet-800 hover:bg-violet-100 dark:hover:bg-violet-900/40 transition-colors"
-                >
-                  PostgreSQL
-                </Badge>
-                <Badge
-                  variant="outline"
-                  className="px-4 py-2 text-sm bg-emerald-50 dark:bg-emerald-900/20 border-emerald-200 dark:border-emerald-800 hover:bg-emerald-100 dark:hover:bg-emerald-900/40 transition-colors"
-                >
-                  REST APIs
-                </Badge>
-                <Badge
-                  variant="outline"
-                  className="px-4 py-2 text-sm bg-amber-50 dark:bg-amber-900/20 border-amber-200 dark:border-amber-800 hover:bg-amber-100 dark:hover:bg-amber-900/40 transition-colors"
-                >
-                  Postman
-                </Badge>
-              </div>
-            </div>
-          </AnimatedSection>
         </div>
       </section>
 
@@ -872,12 +617,13 @@ export default function Home() {
       <section className="py-16 px-4 bg-white dark:bg-gray-800 relative">
         <div className="container mx-auto max-w-6xl relative z-10">
           <AnimatedSection delay={0.2}>
-            <GithubActivity />
+            {/* The username is inferred from the portfolio URL. The component may need to be modified to accept a 'username' prop. */}
+            <GithubActivity username="superusert" />
           </AnimatedSection>
         </div>
       </section>
 
-      {/* Education & Certifications */}
+      {/* Education & Achievements */}
       <section
         id="education"
         className="py-16 px-4 bg-white dark:bg-gray-800 relative"
@@ -885,56 +631,60 @@ export default function Home() {
         <div className="container mx-auto max-w-6xl relative z-10">
           <AnimatedSection>
             <h2 className="text-3xl font-bold mb-8 text-center">
-              Education & Certifications
+              Education & Achievements
             </h2>
           </AnimatedSection>
 
           <div className="mb-12">
             <AnimatedSection direction="left" delay={0.2}>
               <h3 className="text-2xl font-bold mb-6">Education</h3>
-              <div className="bg-gray-50 dark:bg-gray-700 rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow duration-300 hover:-translate-y-1 transition-transform duration-300">
-                <div className="flex flex-col md:flex-row justify-between mb-4">
-                  <div>
-                    <h4 className="text-xl font-semibold">
-                      BS, Artificial Intelligence
-                    </h4>
-                    <p className="text-purple-600 dark:text-purple-400">
-                      National University of Computer and Emerging Sciences FAST
-                      Karachi
+              <div className="space-y-4">
+                <div className="bg-gray-50 dark:bg-gray-700 rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow duration-300 hover:-translate-y-1">
+                  <div className="flex flex-col md:flex-row justify-between">
+                    <div>
+                      <h4 className="text-xl font-semibold">
+                        [cite_start]Web Developer Recruit [cite: 41]
+                      </h4>
+                      <p className="text-purple-600 dark:text-purple-400">
+                        [cite_start]Umuzi/BBD, Johannesburg [cite: 40]
+                      </p>
+                      <p className="text-sm text-gray-600 dark:text-gray-400">
+                        [cite_start]Web and Mobile application development
+                        [cite: 43]
+                      </p>
+                    </div>
+                    <p className="text-gray-600 dark:text-gray-400 mt-2 md:mt-0">
+                      [cite_start]Apr '24 - Present [cite: 41, 42]
                     </p>
                   </div>
-                  <p className="text-gray-600 dark:text-gray-400 mt-2 md:mt-0">
-                    2025
-                  </p>
                 </div>
-                <div>
-                  <h5 className="font-medium mb-2">Relevant Courses:</h5>
-                  <div className="flex flex-wrap gap-2">
-                    <Badge variant="secondary" className="animate-pulse">
-                      Algorithms Design and Analysis
-                    </Badge>
-                    <Badge variant="secondary">
-                      Object-Oriented Programming
-                    </Badge>
-                    <Badge variant="secondary" className="animate-pulse">
-                      Linear Algebra
-                    </Badge>
-                    <Badge variant="secondary">
-                      Probability and Statistics
-                    </Badge>
-                    <Badge variant="secondary" className="animate-pulse">
-                      Machine Learning
-                    </Badge>
-                    <Badge variant="secondary">
-                      Artificial Neural Networks
-                    </Badge>
-                    <Badge variant="secondary" className="animate-pulse">
-                      Database Systems
-                    </Badge>
-                    <Badge variant="secondary">Information Retrieval</Badge>
-                    <Badge variant="secondary">
-                      Fundamentals of Software Engineering
-                    </Badge>
+                <div className="bg-gray-50 dark:bg-gray-700 rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow duration-300 hover:-translate-y-1">
+                  <div className="flex flex-col md:flex-row justify-between">
+                    <div>
+                      <h4 className="text-xl font-semibold">
+                        [cite_start]Full stack Software Engineering [cite: 45]
+                      </h4>
+                      <p className="text-purple-600 dark:text-purple-400">
+                        [cite_start]ALX Africa, Johannesburg [cite: 44]
+                      </p>
+                    </div>
+                    <p className="text-gray-600 dark:text-gray-400 mt-2 md:mt-0">
+                      [cite_start]Jan '22 - Jan '23 [cite: 45]
+                    </p>
+                  </div>
+                </div>
+                <div className="bg-gray-50 dark:bg-gray-700 rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow duration-300 hover:-translate-y-1">
+                  <div className="flex flex-col md:flex-row justify-between">
+                    <div>
+                      <h4 className="text-xl font-semibold">
+                        [cite_start]Bachelor of Commerce, Information Systems
+                        [cite: 47]
+                      </h4>
+                      <p className="text-purple-600 dark:text-purple-400">
+                        [cite_start]University of Cape Town (incomplete) [cite:
+                        46, 48]
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -943,47 +693,45 @@ export default function Home() {
 
           <div>
             <AnimatedSection direction="right" delay={0.3}>
-              <h3 className="text-2xl font-bold mb-6">
-                Certifications & Awards
-              </h3>
+              <h3 className="text-2xl font-bold mb-6">Prizes & Achievements</h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <div className="bg-gray-50 dark:bg-gray-700 rounded-lg p-4 shadow-md hover:shadow-lg transition-shadow duration-300 hover:-translate-y-1 transition-transform duration-300">
+                <div className="bg-gray-50 dark:bg-gray-700 rounded-lg p-4 shadow-md hover:shadow-lg transition-shadow duration-300 hover:-translate-y-1">
+                  [cite_start]
                   <h4 className="font-semibold">
-                    Large Language Models Concept - DataCamp
+                    SAMSA Bursary Holder [cite: 11]
                   </h4>
                   <p className="text-gray-600 dark:text-gray-400">
-                    Basics of LLMs, Zero, Few, Multiple Shots Learning
+                    Completed Maritime Studies program at Lawhill Maritime
+                    [cite_start]Centre (2016-2019)[cite: 11, 22].
                   </p>
                 </div>
-                <div className="bg-gray-50 dark:bg-gray-700 rounded-lg p-4 shadow-md hover:shadow-lg transition-shadow duration-300 hover:-translate-y-1 transition-transform duration-300">
+                <div className="bg-gray-50 dark:bg-gray-700 rounded-lg p-4 shadow-md hover:shadow-lg transition-shadow duration-300 hover:-translate-y-1">
+                  [cite_start]
                   <h4 className="font-semibold">
-                    Supervised Machine Learning - DataCamp
+                    Foreign Exchange Program [cite: 12]
                   </h4>
                   <p className="text-gray-600 dark:text-gray-400">
-                    Classification, regression, types of error, evaluation
-                    metrics
+                    Enhanced Mandarin proficiency at Sun Yet-Sen University,
+                    [cite_start]China[cite: 12].
                   </p>
                 </div>
-                <div className="bg-gray-50 dark:bg-gray-700 rounded-lg p-4 shadow-md hover:shadow-lg transition-shadow duration-300 hover:-translate-y-1 transition-transform duration-300">
-                  <h4 className="font-semibold">Data Science - DataCamp</h4>
-                  <p className="text-gray-600 dark:text-gray-400">
-                    Pandas, numpy, machine learning, Python libraries
-                  </p>
-                </div>
-                <div className="bg-gray-50 dark:bg-gray-700 rounded-lg p-4 shadow-md hover:shadow-lg transition-shadow duration-300 hover:-translate-y-1 transition-transform duration-300">
+                <div className="bg-gray-50 dark:bg-gray-700 rounded-lg p-4 shadow-md hover:shadow-lg transition-shadow duration-300 hover:-translate-y-1">
                   <h4 className="font-semibold">
-                    Exploratory Data Analysis - GoodLearnings
+                    [cite_start]Chinese Bridge Competition Finalist [cite: 20]
                   </h4>
                   <p className="text-gray-600 dark:text-gray-400">
-                    Insightful visualization, stats, statistical queries
+                    [cite_start]Showcased language proficiency and cultural
+                    knowledge[cite: 20].
                   </p>
                 </div>
-                <div className="bg-gray-50 dark:bg-gray-700 rounded-lg p-4 md:col-span-2 shadow-md hover:shadow-lg transition-shadow duration-300 hover:-translate-y-1 transition-transform duration-300">
+                <div className="bg-gray-50 dark:bg-gray-700 rounded-lg p-4 shadow-md hover:shadow-lg transition-shadow duration-300 hover:-translate-y-1">
+                  [cite_start]
                   <h4 className="font-semibold">
-                    Winner ML Competition - ACM-AI
+                    Academic Excellence [cite: 20, 21]
                   </h4>
                   <p className="text-gray-600 dark:text-gray-400">
-                    Secured victory in a machine learning competition
+                    Ranked as a Top 10 Student and was the top achiever in
+                    [cite_start]Business Studies[cite: 20, 21].
                   </p>
                 </div>
               </div>
@@ -1012,27 +760,27 @@ export default function Home() {
                   <div className="flex items-center hover:translate-x-1 transition-transform duration-300">
                     <Mail className="w-5 h-5 text-purple-600 mr-3" />
                     <a
-                      href="mailto:pitafimurad99@gmail.com"
+                      href="mailto:rantshothabisomail@gmail.com"
                       className="text-gray-700 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400 transition-colors"
                     >
-                      pitafimurad99@gmail.com
+                      [cite_start]rantshothabisomail@gmail.com [cite: 3]
                     </a>
                   </div>
                   <div className="flex items-center hover:translate-x-1 transition-transform duration-300">
                     <Linkedin className="w-5 h-5 text-purple-600 mr-3" />
                     <a
-                      href="https://linkedin.com/in/murad-pitafi"
+                      href="https://www.linkedin.com/in/thabiso-rantsho-34849b14a"
                       target="_blank"
                       className="text-gray-700 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400 transition-colors"
                       rel="noreferrer"
                     >
-                      LinkedIn Profile
+                      [cite_start]LinkedIn Profile [cite: 4]
                     </a>
                   </div>
                   <div className="flex items-center hover:translate-x-1 transition-transform duration-300">
                     <Github className="w-5 h-5 text-purple-600 mr-3" />
                     <a
-                      href="https://github.com/murad-pitafi"
+                      href="https://github.com/superusert"
                       target="_blank"
                       className="text-gray-700 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400 transition-colors"
                       rel="noreferrer"
@@ -1043,12 +791,12 @@ export default function Home() {
                   <div className="flex items-center hover:translate-x-1 transition-transform duration-300">
                     <ExternalLink className="w-5 h-5 text-purple-600 mr-3" />
                     <a
-                      href="https://kaggle.com/muradpitafi"
+                      href="https://superusert.github.io/React-Portfolio-Site/"
                       target="_blank"
                       className="text-gray-700 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400 transition-colors"
                       rel="noreferrer"
                     >
-                      Kaggle Profile
+                      [cite_start]Portfolio [cite: 52]
                     </a>
                   </div>
                 </div>
@@ -1075,33 +823,35 @@ export default function Home() {
         <div className="container mx-auto max-w-6xl relative z-10">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="mb-4 md:mb-0">
-              <h2 className="text-xl font-bold">Muhammad Murad</h2>
-              <p className="text-gray-400">AI Engineer</p>
+              [cite_start]
+              <h2 className="text-xl font-bold">Thabiso Rantsho [cite: 1]</h2>
+              [cite_start]
+              <p className="text-gray-400">Junior Web Developer [cite: 1]</p>
             </div>
             <div className="flex space-x-4">
               <Link
-                href="https://linkedin.com/in/murad-pitafi"
+                href="https://www.linkedin.com/in/thabiso-rantsho-34849b14a"
                 target="_blank"
                 className="text-gray-400 hover:text-white transition-colors transform hover:scale-110 duration-300"
               >
                 <Linkedin className="w-5 h-5" />
               </Link>
               <Link
-                href="https://github.com/murad-pitafi"
+                href="https://github.com/superusert"
                 target="_blank"
                 className="text-gray-400 hover:text-white transition-colors transform hover:scale-110 duration-300"
               >
                 <Github className="w-5 h-5" />
               </Link>
               <Link
-                href="https://kaggle.com/muradpitafi"
+                href="https://superusert.github.io/React-Portfolio-Site/"
                 target="_blank"
                 className="text-gray-400 hover:text-white transition-colors transform hover:scale-110 duration-300"
               >
                 <ExternalLink className="w-5 h-5" />
               </Link>
               <Link
-                href="mailto:pitafimurad99@gmail.com"
+                href="mailto:rantshothabisomail@gmail.com"
                 className="text-gray-400 hover:text-white transition-colors transform hover:scale-110 duration-300"
               >
                 <Mail className="w-5 h-5" />
@@ -1110,7 +860,7 @@ export default function Home() {
           </div>
           <div className="mt-6 text-center text-gray-400 text-sm">
             <p>
-              © {new Date().getFullYear()} Muhammad Murad. All rights reserved.
+              © {new Date().getFullYear()} Thabiso Rantsho. All rights reserved.
             </p>
           </div>
         </div>

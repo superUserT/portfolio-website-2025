@@ -1,32 +1,32 @@
-"use client"
+"use client";
 
-import Link from "next/link"
-import { useState, useEffect } from "react"
-import { Menu, X } from "lucide-react"
-import { ThemeToggle } from "./theme-toggle"
-import { Button } from "@/components/ui/button"
-import { motion, AnimatePresence } from "framer-motion"
+import Link from "next/link";
+import { useState, useEffect } from "react";
+import { Menu, X } from "lucide-react";
+import { ThemeToggle } from "./theme-toggle";
+import { Button } from "@/components/ui/button";
+import { motion, AnimatePresence } from "framer-motion";
 
 export function Navbar() {
-  const [isOpen, setIsOpen] = useState(false)
-  const [isScrolled, setIsScrolled] = useState(false)
+  const [isOpen, setIsOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 10) {
-        setIsScrolled(true)
+        setIsScrolled(true);
       } else {
-        setIsScrolled(false)
+        setIsScrolled(false);
       }
-    }
+    };
 
-    window.addEventListener("scroll", handleScroll)
-    return () => window.removeEventListener("scroll", handleScroll)
-  }, [])
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   const toggleMenu = () => {
-    setIsOpen(!isOpen)
-  }
+    setIsOpen(!isOpen);
+  };
 
   const navLinks = [
     { name: "About", href: "#about" },
@@ -34,12 +34,14 @@ export function Navbar() {
     { name: "Projects", href: "#projects" },
     { name: "Skills", href: "#skills" },
     { name: "Contact", href: "#contact" },
-  ]
+  ];
 
   return (
     <motion.nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? "bg-white/90 dark:bg-gray-900/90 backdrop-blur-md shadow-sm" : "bg-transparent"
+        isScrolled
+          ? "bg-white/90 dark:bg-gray-900/90 backdrop-blur-md shadow-sm"
+          : "bg-transparent"
       }`}
       initial={{ y: -100 }}
       animate={{ y: 0 }}
@@ -57,7 +59,7 @@ export function Navbar() {
               href="/"
               className="text-xl font-bold bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent"
             >
-              Muhammad Murad
+              Thabiso Rantsho
             </Link>
           </motion.div>
 
@@ -92,8 +94,16 @@ export function Navbar() {
               animate={{ opacity: 1 }}
               transition={{ delay: 0.8 }}
             >
-              <Link href="/documents/muhammad-murad-resume.pdf" target="_blank" download>
-                <Button variant="outline" size="sm" className="relative overflow-hidden group">
+              <Link
+                href="/documents/muhammad-murad-resume.pdf"
+                target="_blank"
+                download
+              >
+                <Button
+                  variant="outline"
+                  size="sm"
+                  className="relative overflow-hidden group"
+                >
                   <span className="relative z-10">Download Resume</span>
                   <span className="absolute inset-0 bg-purple-600 opacity-0 group-hover:opacity-10 transition-opacity duration-300"></span>
                 </Button>
@@ -116,7 +126,11 @@ export function Navbar() {
               aria-expanded="false"
             >
               <span className="sr-only">Open main menu</span>
-              {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+              {isOpen ? (
+                <X className="h-6 w-6" />
+              ) : (
+                <Menu className="h-6 w-6" />
+              )}
             </button>
           </motion.div>
         </div>
@@ -149,7 +163,11 @@ export function Navbar() {
                   </Link>
                 </motion.div>
               ))}
-              <motion.div initial={{ opacity: 0, x: -20 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: 0.5 }}>
+              <motion.div
+                initial={{ opacity: 0, x: -20 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ delay: 0.5 }}
+              >
                 <Link
                   href="/documents/muhammad-murad-resume.pdf"
                   target="_blank"
@@ -165,5 +183,5 @@ export function Navbar() {
         )}
       </AnimatePresence>
     </motion.nav>
-  )
+  );
 }
