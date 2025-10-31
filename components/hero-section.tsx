@@ -37,9 +37,8 @@ export function HeroSection() {
               transition={{ delay: 0.6, duration: 0.8 }}
             >
               A Junior Web Developer from Welkom, South Africa, with experience
-              [cite_start]in building websites and enhancing software
-              solutions[cite: 6, 7]. Proficient in [cite_start]a variety of
-              programming languages and technologies[cite: 8].
+              in building websites and enhancing software solutions. Proficient
+              in a variety of programming languages and technologies.
             </ClientMotion>
             <ClientMotion
               className="flex flex-wrap gap-4"
@@ -69,7 +68,7 @@ export function HeroSection() {
                 className="relative overflow-hidden group"
               >
                 <Link
-                  href="/documents/Updated_Resume.pdf"
+                  href="/documents/thabiso-rantsho-resume.pdf"
                   target="_blank"
                   download
                 >
@@ -127,7 +126,7 @@ export function HeroSection() {
           >
             <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white dark:border-gray-800 shadow-xl">
               <Image
-                src="/images/profile.png"
+                src="/images/new_profile.jpeg"
                 alt="Thabiso Rantsho"
                 fill
                 className="object-cover"

@@ -59,22 +59,21 @@ export default function Home() {
             <AnimatedSection direction="left" delay={0.2}>
               <div className="space-y-4">
                 <p className="text-lg text-gray-700 dark:text-gray-300">
-                  I am Thabiso Rantsho, a Junior Web Developer based in Welkom,
-                  [cite_start]South Africa[cite: 6]. My passion lies in crafting
+                  I am Thabiso Rantsho, a Junior Web Developer based in
+                  Bloemofontein, South Africa. My passion lies in crafting
                   dynamic and user-friendly web experiences.
                 </p>
                 <p className="text-lg text-gray-700 dark:text-gray-300">
                   I have hands-on experience from my time at Monsfi Marketing,
                   where I built websites for various clients, and as a Junior
-                  Software Developer Intern at the University of Cape Town,
-                  [cite_start]contributing to software evolution and UI
-                  enhancements[cite: 7, 32].
+                  Software Developer recruit, I gained valuable experience in
+                  software development.
                 </p>
                 <p className="text-lg text-gray-700 dark:text-gray-300">
-                  My technical skills include JavaScript, Python, C++, Java,
-                  [cite_start]and various web technologies like WordPress, HTML,
-                  and CSS[cite: 8, 28, 29]. I am always eager to learn and apply
-                  new technologies to solve real-world problems.
+                  My technical skills include JavaScript, Python, C++, and
+                  various web technologies like freecad, HTML, and CSS. I am
+                  always eager to learn and apply new technologies to solve
+                  real-world problems.
                 </p>
               </div>
             </AnimatedSection>
@@ -92,26 +91,25 @@ export default function Home() {
                   <li className="flex items-start group">
                     <ChevronRight className="w-5 h-5 text-purple-600 mt-0.5 flex-shrink-0 transform group-hover:translate-x-1 transition-transform duration-300" />
                     <span className="text-gray-700 dark:text-gray-300">
-                      [cite_start]UI Development with HTML/CSS & JavaScript
-                      [cite: 28, 29]
+                      UI Development with HTML/CSS & JavaScript
                     </span>
                   </li>
                   <li className="flex items-start group">
                     <ChevronRight className="w-5 h-5 text-purple-600 mt-0.5 flex-shrink-0 transform group-hover:translate-x-1 transition-transform duration-300" />
                     <span className="text-gray-700 dark:text-gray-300">
-                      [cite_start]Backend Development with .NET [cite: 32, 35]
+                      Backend Development with JavaScript
                     </span>
                   </li>
                   <li className="flex items-start group">
                     <ChevronRight className="w-5 h-5 text-purple-600 mt-0.5 flex-shrink-0 transform group-hover:translate-x-1 transition-transform duration-300" />
                     <span className="text-gray-700 dark:text-gray-300">
-                      [cite_start]Agile & Scrum Methodologies [cite: 34]
+                      Agile & Scrum Methodologies
                     </span>
                   </li>
                   <li className="flex items-start group">
                     <ChevronRight className="w-5 h-5 text-purple-600 mt-0.5 flex-shrink-0 transform group-hover:translate-x-1 transition-transform duration-300" />
                     <span className="text-gray-700 dark:text-gray-300">
-                      [cite_start]SEO Optimization & Analytics [cite: 27]
+                      SEO Optimization & Analytics
                     </span>
                   </li>
                 </ul>
@@ -140,27 +138,25 @@ export default function Home() {
                   <div>
                     <h3 className="text-xl font-bold">Web developer</h3>
                     <p className="text-purple-600 dark:text-purple-400 font-medium">
-                      [cite_start]Monsfi Marketing, Cape Town, WP [cite: 24]
+                      Monsfi Marketing, Cape Town, WP
                     </p>
                   </div>
                   <p className="text-gray-600 dark:text-gray-400 mt-2 md:mt-0">
-                    [cite_start]Jun '24 - Feb '25 [cite: 25]
+                    Jun '24 - Present
                   </p>
                 </div>
                 <ul className="space-y-2 list-disc list-inside text-gray-700 dark:text-gray-300">
                   <li>
-                    Crafted websites for diverse clients, elevating online
-                    [cite_start]sales & enhancing user engagement metrics[cite:
-                    26].
+                    Crafted websites for diverse clients, elevating online sales
+                    & enhancing user engagement metrics.
                   </li>
                   <li>
                     Boosted organic traffic by 50% and enhanced lead generation
-                    through SEO optimization utilizing Google
-                    [cite_start]Analytics[cite: 27].
+                    through SEO optimization utilizing Google Analytics.
                   </li>
                   <li>
-                    Executed updates for WP sites using WordPress CMS & Custom
-                    [cite_start]CSS/HTML to boost user engagement[cite: 28].
+                    Executed updates for WP sites using WordPress CMS & react
+                    websites to boost user engagement.
                   </li>
                 </ul>
               </div>
@@ -174,54 +170,28 @@ export default function Home() {
                       Junior Software Developer Intern
                     </h3>
                     <p className="text-purple-600 dark:text-purple-400 font-medium">
-                      [cite_start]University of Cape Town and Freshgold, Cape
-                      Town, WP [cite: 30]
+                      University of Cape Town and Freshgold, Cape Town, WP
+                      (Course Work)
                     </p>
                   </div>
                   <p className="text-gray-600 dark:text-gray-400 mt-2 md:mt-0">
-                    [cite_start]Jan '21 - Nov '21 [cite: 31]
+                    Jan '21 - Nov '21
                   </p>
                 </div>
                 <ul className="space-y-2 list-disc list-inside text-gray-700 dark:text-gray-300">
                   <li>
                     Played a key role in evolving software in .net through a
-                    final year project, resulting in a 20% efficiency increase
-                    [cite_start]& UI enhancements[cite: 32].
+                    final year project, resulting in a 20% efficiency increase &
+                    UI enhancements.
                   </li>
                   <li>
                     Propelled client satisfaction by introducing Freshgold Docs
-                    as an innovative solution, resulting in a 20% boost
-                    [cite_start]in client contentment[cite: 33].
+                    as an innovative solution, resulting in a 20% boost in
+                    client contentment.
                   </li>
                   <li>
                     Steered software design & development process using agile &
-                    [cite_start]scrum methodologies[cite: 34].
-                  </li>
-                </ul>
-              </div>
-            </AnimatedSection>
-
-            <AnimatedSection delay={0.4}>
-              <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 border-l-4 border-purple-600 hover:-translate-y-1 transition-transform duration-300">
-                <div className="flex flex-col md:flex-row md:items-center justify-between mb-4">
-                  <div>
-                    <h3 className="text-xl font-bold">
-                      Junior Business Analyst Intern
-                    </h3>
-                    <p className="text-purple-600 dark:text-purple-400 font-medium">
-                      [cite_start]University of Cape Town, Cape Town, WP [cite:
-                      36]
-                    </p>
-                  </div>
-                  <p className="text-gray-600 dark:text-gray-400 mt-2 md:mt-0">
-                    [cite_start]Jul '21 - Sep '21 [cite: 37]
-                  </p>
-                </div>
-                <ul className="space-y-2 list-disc list-inside text-gray-700 dark:text-gray-300">
-                  <li>
-                    Pitched for funding & secured investment for a new patented
-                    business case, utilizing financial modeling and
-                    [cite_start]market research[cite: 38].
+                    scrum methodologies.
                   </li>
                 </ul>
               </div>
@@ -246,15 +216,15 @@ export default function Home() {
             <AnimatedCard delay={0.2}>
               <Card className="h-full border-0 shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <CardHeader>
-                  <CardTitle>Client Website Development</CardTitle>
+                  <CardTitle>Client Website Development:NMD website</CardTitle>
                   <CardDescription>
-                    Custom WordPress sites with SEO optimization
+                    Custom React website developed for NMD
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
                   <div className="aspect-video relative rounded-md overflow-hidden mb-4 bg-gray-100 dark:bg-gray-700 transform transition-transform duration-500 hover:scale-[1.02]">
                     <Image
-                      src="/placeholder.svg?height=240&width=400"
+                      src="/images/NMD.png?height=240&width=400"
                       alt="Client Website Development"
                       fill
                       className="object-cover"
@@ -265,38 +235,38 @@ export default function Home() {
                     Developed and maintained websites for a diverse range of
                     clients at Monsfi Marketing, focusing on enhancing online
                     sales and user engagement. Implemented SEO best practices to
-                    [cite_start]boost organic traffic[cite: 26, 27].
+                    boost organic traffic.
                   </p>
                   <div className="flex flex-wrap gap-2 mt-4">
                     <Badge
                       variant="outline"
                       className="bg-purple-100/50 dark:bg-purple-900/50 hover:bg-purple-200 transition-colors duration-300"
                     >
-                      [cite_start]WordPress [cite: 29]
+                      React
                     </Badge>
                     <Badge
                       variant="outline"
                       className="bg-purple-100/50 dark:bg-purple-900/50 hover:bg-purple-200 transition-colors duration-300"
                     >
-                      [cite_start]HTML [cite: 29]
+                      Emailjs
                     </Badge>
                     <Badge
                       variant="outline"
                       className="bg-purple-100/50 dark:bg-purple-900/50 hover:bg-purple-200 transition-colors duration-300"
                     >
-                      [cite_start]CSS [cite: 28]
+                      TailwindCss
                     </Badge>
                     <Badge
                       variant="outline"
                       className="bg-purple-100/50 dark:bg-purple-900/50 hover:bg-purple-200 transition-colors duration-300"
                     >
-                      [cite_start]JavaScript [cite: 29]
+                      JavaScript
                     </Badge>
                     <Badge
                       variant="outline"
                       className="bg-purple-100/50 dark:bg-purple-900/50 hover:bg-purple-200 transition-colors duration-300"
                     >
-                      [cite_start]SEO [cite: 27]
+                      SEO
                     </Badge>
                   </div>
                 </CardContent>
@@ -306,15 +276,9 @@ export default function Home() {
                     variant="outline"
                     className="w-full relative overflow-hidden group bg-transparent"
                   >
-                    <Link
-                      href="https://superusert.github.io/React-Portfolio-Site/"
-                      target="_blank"
-                    >
+                    <Link href="https://nmdconstruction.net/" target="_blank">
                       <ExternalLink className="w-4 h-4 mr-2" />
-                      [cite_start]
-                      <span className="relative z-10">
-                        View Portfolio [cite: 52]
-                      </span>
+                      <span className="relative z-10">View Site</span>
                       <span className="absolute inset-0 bg-purple-600 opacity-0 group-hover:opacity-1 transition-opacity duration-300"></span>
                     </Link>
                   </Button>
@@ -325,15 +289,16 @@ export default function Home() {
             <AnimatedCard delay={0.3}>
               <Card className="h-full border-0 shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <CardHeader>
-                  <CardTitle>.NET Enterprise Software Enhancement</CardTitle>
+                  <CardTitle>Footprint Logger</CardTitle>
                   <CardDescription>
-                    UI improvements and feature development
+                    A footprint logger is a tool that helps individuals track
+                    their carbon footprint and make more sustainable choices.
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
                   <div className="aspect-video relative rounded-md overflow-hidden mb-4 bg-gray-100 dark:bg-gray-700 transform transition-transform duration-500 hover:scale-[1.02]">
                     <Image
-                      src="/placeholder.svg?height=240&width=400"
+                      src="/images/Footprint.png?height=240&width=400"
                       alt=".NET Project"
                       fill
                       className="object-cover"
@@ -341,36 +306,34 @@ export default function Home() {
                     <div className="absolute inset-0 bg-gradient-to-tr from-purple-600/20 to-blue-600/20 opacity-0 hover:opacity-100 transition-opacity duration-300" />
                   </div>
                   <p className="text-gray-700 dark:text-gray-300">
-                    Contributed to a final year project with Freshgold to evolve
-                    a .NET software solution. Key contributions included
-                    implementing UI enhancements and developing new features,
-                    leading to increased efficiency and client
-                    [cite_start]satisfaction[cite: 32, 33].
+                    Created a footprint logger using the MERN stack, which
+                    allows users to track their carbon footprint and make more
+                    sustainable choices.
                   </p>
                   <div className="flex flex-wrap gap-2 mt-4">
                     <Badge
                       variant="outline"
                       className="bg-purple-100/50 dark:bg-purple-900/50 hover:bg-purple-200 transition-colors duration-300"
                     >
-                      [cite_start]ASP.NET [cite: 35]
+                      React
                     </Badge>
                     <Badge
                       variant="outline"
                       className="bg-purple-100/50 dark:bg-purple-900/50 hover:bg-purple-200 transition-colors duration-300"
                     >
-                      [cite_start]Azure [cite: 35]
+                      Experience
                     </Badge>
                     <Badge
                       variant="outline"
                       className="bg-purple-100/50 dark:bg-purple-900/50 hover:bg-purple-200 transition-colors duration-300"
                     >
-                      [cite_start]HTML [cite: 35]
+                      Mongo Atlas
                     </Badge>
                     <Badge
                       variant="outline"
                       className="bg-purple-100/50 dark:bg-purple-900/50 hover:bg-purple-200 transition-colors duration-300"
                     >
-                      [cite_start]Git [cite: 35]
+                      Node.js
                     </Badge>
                   </div>
                 </CardContent>
@@ -381,14 +344,11 @@ export default function Home() {
                     className="w-full relative overflow-hidden group bg-transparent"
                   >
                     <Link
-                      href="https://superusert.github.io/React-Portfolio-Site/"
+                      href="https://footprint-logger-frontend.onrender.com/"
                       target="_blank"
                     >
                       <ExternalLink className="w-4 h-4 mr-2" />
-                      [cite_start]
-                      <span className="relative z-10">
-                        View Portfolio [cite: 52]
-                      </span>
+                      <span className="relative z-10">View Website</span>
                       <span className="absolute inset-0 bg-purple-600 opacity-0 group-hover:opacity-10 transition-opacity duration-300"></span>
                     </Link>
                   </Button>
@@ -430,49 +390,37 @@ export default function Home() {
                       variant="secondary"
                       className="justify-center py-2 hover:bg-purple-100 dark:hover:bg-purple-900/50 transition-colors"
                     >
-                      [cite_start]JavaScript [cite: 50]
+                      JavaScript
                     </Badge>
                     <Badge
                       variant="secondary"
                       className="justify-center py-2 hover:bg-purple-100 dark:hover:bg-purple-900/50 transition-colors"
                     >
-                      [cite_start]Python [cite: 50]
+                      Python
                     </Badge>
                     <Badge
                       variant="secondary"
                       className="justify-center py-2 hover:bg-purple-100 dark:hover:bg-purple-900/50 transition-colors"
                     >
-                      [cite_start]C [cite: 51]
+                      C++
                     </Badge>
                     <Badge
                       variant="secondary"
                       className="justify-center py-2 hover:bg-purple-100 dark:hover:bg-purple-900/50 transition-colors"
                     >
-                      [cite_start]C# [cite: 51]
+                      C#
                     </Badge>
                     <Badge
                       variant="secondary"
                       className="justify-center py-2 hover:bg-purple-100 dark:hover:bg-purple-900/50 transition-colors"
                     >
-                      [cite_start]Java [cite: 8]
+                      TypeScript
                     </Badge>
                     <Badge
                       variant="secondary"
                       className="justify-center py-2 hover:bg-purple-100 dark:hover:bg-purple-900/50 transition-colors"
                     >
-                      [cite_start]TypeScript [cite: 51]
-                    </Badge>
-                    <Badge
-                      variant="secondary"
-                      className="justify-center py-2 hover:bg-purple-100 dark:hover:bg-purple-900/50 transition-colors"
-                    >
-                      [cite_start]HTML [cite: 29]
-                    </Badge>
-                    <Badge
-                      variant="secondary"
-                      className="justify-center py-2 hover:bg-purple-100 dark:hover:bg-purple-900/50 transition-colors"
-                    >
-                      [cite_start]C++ [cite: 8]
+                      HTML 5
                     </Badge>
                   </div>
                 </CardContent>
@@ -497,19 +445,13 @@ export default function Home() {
                       variant="secondary"
                       className="justify-center py-2 hover:bg-blue-100 dark:hover:bg-blue-900/50 transition-colors"
                     >
-                      [cite_start]ASP.NET [cite: 35]
+                      ASP.NET
                     </Badge>
                     <Badge
                       variant="secondary"
                       className="justify-center py-2 hover:bg-blue-100 dark:hover:bg-blue-900/50 transition-colors"
                     >
-                      [cite_start]React Native [cite: 51]
-                    </Badge>
-                    <Badge
-                      variant="secondary"
-                      className="justify-center py-2 hover:bg-blue-100 dark:hover:bg-blue-900/50 transition-colors"
-                    >
-                      [cite_start]WordPress [cite: 29]
+                      React Native
                     </Badge>
                   </div>
                 </CardContent>
@@ -536,25 +478,20 @@ export default function Home() {
                       variant="secondary"
                       className="justify-center py-2 hover:bg-green-100 dark:hover:bg-green-900/50 transition-colors"
                     >
-                      [cite_start]Postgres [cite: 51]
+                      Postgres
                     </Badge>
                     <Badge
                       variant="secondary"
                       className="justify-center py-2 hover:bg-green-100 dark:hover:bg-green-900/50 transition-colors"
                     >
-                      [cite_start]MongoDB [cite: 51]
+                      MongoDB
                     </Badge>
+
                     <Badge
                       variant="secondary"
                       className="justify-center py-2 hover:bg-green-100 dark:hover:bg-green-900/50 transition-colors"
                     >
-                      [cite_start]JSON [cite: 51]
-                    </Badge>
-                    <Badge
-                      variant="secondary"
-                      className="justify-center py-2 hover:bg-green-100 dark:hover:bg-green-900/50 transition-colors"
-                    >
-                      [cite_start]Azure [cite: 35]
+                      Azure
                     </Badge>
                   </div>
                 </CardContent>
@@ -579,31 +516,37 @@ export default function Home() {
                       variant="secondary"
                       className="justify-center py-2 hover:bg-orange-100 dark:hover:bg-orange-900/50 transition-colors"
                     >
-                      [cite_start]Git [cite: 51]
+                      Git & GitHub
                     </Badge>
                     <Badge
                       variant="secondary"
                       className="justify-center py-2 hover:bg-orange-100 dark:hover:bg-orange-900/50 transition-colors"
                     >
-                      [cite_start]Agile [cite: 34]
+                      Gitlab
                     </Badge>
                     <Badge
                       variant="secondary"
                       className="justify-center py-2 hover:bg-orange-100 dark:hover:bg-orange-900/50 transition-colors"
                     >
-                      [cite_start]Scrum [cite: 34]
+                      Agile
                     </Badge>
                     <Badge
                       variant="secondary"
                       className="justify-center py-2 hover:bg-orange-100 dark:hover:bg-orange-900/50 transition-colors"
                     >
-                      [cite_start]SEO [cite: 27]
+                      Scrum
                     </Badge>
                     <Badge
                       variant="secondary"
                       className="justify-center py-2 hover:bg-orange-100 dark:hover:bg-orange-900/50 transition-colors"
                     >
-                      [cite_start]Google Analytics [cite: 27]
+                      SEO
+                    </Badge>
+                    <Badge
+                      variant="secondary"
+                      className="justify-center py-2 hover:bg-orange-100 dark:hover:bg-orange-900/50 transition-colors"
+                    >
+                      Google Analytics
                     </Badge>
                   </div>
                 </CardContent>
@@ -642,19 +585,16 @@ export default function Home() {
                 <div className="bg-gray-50 dark:bg-gray-700 rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow duration-300 hover:-translate-y-1">
                   <div className="flex flex-col md:flex-row justify-between">
                     <div>
-                      <h4 className="text-xl font-semibold">
-                        [cite_start]Web Developer Recruit [cite: 41]
-                      </h4>
+                      <h4 className="text-xl font-semibold">BEng Robotics</h4>
                       <p className="text-purple-600 dark:text-purple-400">
-                        [cite_start]Umuzi/BBD, Johannesburg [cite: 40]
+                        Berlin, Germany
                       </p>
                       <p className="text-sm text-gray-600 dark:text-gray-400">
-                        [cite_start]Web and Mobile application development
-                        [cite: 43]
+                        Engineering, Specialization in Robotics
                       </p>
                     </div>
                     <p className="text-gray-600 dark:text-gray-400 mt-2 md:mt-0">
-                      [cite_start]Apr '24 - Present [cite: 41, 42]
+                      Jan '25 - Present
                     </p>
                   </div>
                 </div>
@@ -662,14 +602,17 @@ export default function Home() {
                   <div className="flex flex-col md:flex-row justify-between">
                     <div>
                       <h4 className="text-xl font-semibold">
-                        [cite_start]Full stack Software Engineering [cite: 45]
+                        Web Developer Recruit
                       </h4>
                       <p className="text-purple-600 dark:text-purple-400">
-                        [cite_start]ALX Africa, Johannesburg [cite: 44]
+                        Umuzi/BBD, Johannesburg
+                      </p>
+                      <p className="text-sm text-gray-600 dark:text-gray-400">
+                        Web and Mobile application development
                       </p>
                     </div>
                     <p className="text-gray-600 dark:text-gray-400 mt-2 md:mt-0">
-                      [cite_start]Jan '22 - Jan '23 [cite: 45]
+                      Apr '24 - Present
                     </p>
                   </div>
                 </div>
@@ -677,12 +620,31 @@ export default function Home() {
                   <div className="flex flex-col md:flex-row justify-between">
                     <div>
                       <h4 className="text-xl font-semibold">
-                        [cite_start]Bachelor of Commerce, Information Systems
-                        [cite: 47]
+                        Full stack Software Engineering
                       </h4>
                       <p className="text-purple-600 dark:text-purple-400">
-                        [cite_start]University of Cape Town (incomplete) [cite:
-                        46, 48]
+                        ALX Africa, Johannesburg
+                      </p>
+                      <p className="text-sm text-gray-600 dark:text-gray-400">
+                        full stack development, Backend Specialisation
+                      </p>
+                    </div>
+                    <p className="text-gray-600 dark:text-gray-400 mt-2 md:mt-0">
+                      Jan '22 - Jan '23
+                    </p>
+                  </div>
+                </div>
+                <div className="bg-gray-50 dark:bg-gray-700 rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow duration-300 hover:-translate-y-1">
+                  <div className="flex flex-col md:flex-row justify-between">
+                    <div>
+                      <h4 className="text-xl font-semibold">
+                        Bachelor of Commerce, Information Systems
+                      </h4>
+                      <p className="text-purple-600 dark:text-purple-400">
+                        University of Cape Town
+                      </p>
+                      <p className="text-gray-600 dark:text-gray-400 mt-2 md:mt-0">
+                        Jan '19 - Jan '22
                       </p>
                     </div>
                   </div>
@@ -696,42 +658,38 @@ export default function Home() {
               <h3 className="text-2xl font-bold mb-6">Prizes & Achievements</h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="bg-gray-50 dark:bg-gray-700 rounded-lg p-4 shadow-md hover:shadow-lg transition-shadow duration-300 hover:-translate-y-1">
-                  [cite_start]
-                  <h4 className="font-semibold">
-                    SAMSA Bursary Holder [cite: 11]
-                  </h4>
+                  <h4 className="font-semibold">Rlabs Scholarship Recipient</h4>
+                  <p className="text-gray-600 dark:text-gray-400">
+                    Recipient of the Rlabs Scholarship for academic excellence.
+                  </p>
+                </div>
+                <div className="bg-gray-50 dark:bg-gray-700 rounded-lg p-4 shadow-md hover:shadow-lg transition-shadow duration-300 hover:-translate-y-1">
+                  <h4 className="font-semibold">SAMSA Bursary Holder</h4>
                   <p className="text-gray-600 dark:text-gray-400">
                     Completed Maritime Studies program at Lawhill Maritime
-                    [cite_start]Centre (2016-2019)[cite: 11, 22].
+                    Centre (2016-2019).
                   </p>
                 </div>
                 <div className="bg-gray-50 dark:bg-gray-700 rounded-lg p-4 shadow-md hover:shadow-lg transition-shadow duration-300 hover:-translate-y-1">
-                  [cite_start]
-                  <h4 className="font-semibold">
-                    Foreign Exchange Program [cite: 12]
-                  </h4>
+                  <h4 className="font-semibold">Foreign Exchange Program</h4>
                   <p className="text-gray-600 dark:text-gray-400">
                     Enhanced Mandarin proficiency at Sun Yet-Sen University,
-                    [cite_start]China[cite: 12].
+                    China.
                   </p>
                 </div>
                 <div className="bg-gray-50 dark:bg-gray-700 rounded-lg p-4 shadow-md hover:shadow-lg transition-shadow duration-300 hover:-translate-y-1">
                   <h4 className="font-semibold">
-                    [cite_start]Chinese Bridge Competition Finalist [cite: 20]
+                    Chinese Bridge Competition Finalist
                   </h4>
                   <p className="text-gray-600 dark:text-gray-400">
-                    [cite_start]Showcased language proficiency and cultural
-                    knowledge[cite: 20].
+                    Showcased language proficiency and cultural knowledge.
                   </p>
                 </div>
                 <div className="bg-gray-50 dark:bg-gray-700 rounded-lg p-4 shadow-md hover:shadow-lg transition-shadow duration-300 hover:-translate-y-1">
-                  [cite_start]
-                  <h4 className="font-semibold">
-                    Academic Excellence [cite: 20, 21]
-                  </h4>
+                  <h4 className="font-semibold">Academic Excellence</h4>
                   <p className="text-gray-600 dark:text-gray-400">
                     Ranked as a Top 10 Student and was the top achiever in
-                    [cite_start]Business Studies[cite: 20, 21].
+                    Business Studies.
                   </p>
                 </div>
               </div>
@@ -763,7 +721,7 @@ export default function Home() {
                       href="mailto:rantshothabisomail@gmail.com"
                       className="text-gray-700 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400 transition-colors"
                     >
-                      [cite_start]rantshothabisomail@gmail.com [cite: 3]
+                      rantshothabisomail@gmail.com
                     </a>
                   </div>
                   <div className="flex items-center hover:translate-x-1 transition-transform duration-300">
@@ -774,7 +732,7 @@ export default function Home() {
                       className="text-gray-700 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400 transition-colors"
                       rel="noreferrer"
                     >
-                      [cite_start]LinkedIn Profile [cite: 4]
+                      LinkedIn Profile
                     </a>
                   </div>
                   <div className="flex items-center hover:translate-x-1 transition-transform duration-300">
@@ -796,7 +754,7 @@ export default function Home() {
                       className="text-gray-700 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400 transition-colors"
                       rel="noreferrer"
                     >
-                      [cite_start]Portfolio [cite: 52]
+                      Portfolio
                     </a>
                   </div>
                 </div>
@@ -823,10 +781,8 @@ export default function Home() {
         <div className="container mx-auto max-w-6xl relative z-10">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="mb-4 md:mb-0">
-              [cite_start]
-              <h2 className="text-xl font-bold">Thabiso Rantsho [cite: 1]</h2>
-              [cite_start]
-              <p className="text-gray-400">Junior Web Developer [cite: 1]</p>
+              <h2 className="text-xl font-bold">Thabiso Rantsho</h2>
+              <p className="text-gray-400">Junior Web Developer</p>
             </div>
             <div className="flex space-x-4">
               <Link
@@ -860,7 +816,8 @@ export default function Home() {
           </div>
           <div className="mt-6 text-center text-gray-400 text-sm">
             <p>
-              © {new Date().getFullYear()} Thabiso Rantsho. All rights reserved.
+              © {new Date().getFullYear()} Thabiso Rantsho. All rights
+              reserved.
             </p>
           </div>
         </div>
