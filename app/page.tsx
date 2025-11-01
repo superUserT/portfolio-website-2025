@@ -28,6 +28,8 @@ import {
   ParticleBackground,
   AnimatedGradientBackground,
 } from "@/components/client-animations";
+// Import the new ProjectsSection component
+import { ProjectsSection } from "@/components/projects-section";
 import { GithubActivity } from "@/components/github-calendar";
 
 export default function Home() {
@@ -200,164 +202,8 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Projects Section */}
-      <section
-        id="projects"
-        className="py-16 px-4 bg-white dark:bg-gray-800 relative"
-      >
-        <div className="container mx-auto max-w-6xl relative z-10">
-          <AnimatedSection>
-            <h2 className="text-3xl font-bold mb-8 text-center">
-              Featured Projects
-            </h2>
-          </AnimatedSection>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <AnimatedCard delay={0.2}>
-              <Card className="h-full border-0 shadow-lg hover:shadow-xl transition-shadow duration-300">
-                <CardHeader>
-                  <CardTitle>Client Website Development:NMD website</CardTitle>
-                  <CardDescription>
-                    Custom React website developed for NMD
-                  </CardDescription>
-                </CardHeader>
-                <CardContent>
-                  <div className="aspect-video relative rounded-md overflow-hidden mb-4 bg-gray-100 dark:bg-gray-700 transform transition-transform duration-500 hover:scale-[1.02]">
-                    <Image
-                      src="/images/NMD.png?height=240&width=400"
-                      alt="Client Website Development"
-                      fill
-                      className="object-cover"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-tr from-purple-600/20 to-blue-600/20 opacity-0 hover:opacity-100 transition-opacity duration-300" />
-                  </div>
-                  <p className="text-gray-700 dark:text-gray-300">
-                    Developed and maintained websites for a diverse range of
-                    clients at Monsfi Marketing, focusing on enhancing online
-                    sales and user engagement. Implemented SEO best practices to
-                    boost organic traffic.
-                  </p>
-                  <div className="flex flex-wrap gap-2 mt-4">
-                    <Badge
-                      variant="outline"
-                      className="bg-purple-100/50 dark:bg-purple-900/50 hover:bg-purple-200 transition-colors duration-300"
-                    >
-                      React
-                    </Badge>
-                    <Badge
-                      variant="outline"
-                      className="bg-purple-100/50 dark:bg-purple-900/50 hover:bg-purple-200 transition-colors duration-300"
-                    >
-                      Emailjs
-                    </Badge>
-                    <Badge
-                      variant="outline"
-                      className="bg-purple-100/50 dark:bg-purple-900/50 hover:bg-purple-200 transition-colors duration-300"
-                    >
-                      TailwindCss
-                    </Badge>
-                    <Badge
-                      variant="outline"
-                      className="bg-purple-100/50 dark:bg-purple-900/50 hover:bg-purple-200 transition-colors duration-300"
-                    >
-                      JavaScript
-                    </Badge>
-                    <Badge
-                      variant="outline"
-                      className="bg-purple-100/50 dark:bg-purple-900/50 hover:bg-purple-200 transition-colors duration-300"
-                    >
-                      SEO
-                    </Badge>
-                  </div>
-                </CardContent>
-                <CardFooter>
-                  <Button
-                    asChild
-                    variant="outline"
-                    className="w-full relative overflow-hidden group bg-transparent"
-                  >
-                    <Link href="https://nmdconstruction.net/" target="_blank">
-                      <ExternalLink className="w-4 h-4 mr-2" />
-                      <span className="relative z-10">View Site</span>
-                      <span className="absolute inset-0 bg-purple-600 opacity-0 group-hover:opacity-1 transition-opacity duration-300"></span>
-                    </Link>
-                  </Button>
-                </CardFooter>
-              </Card>
-            </AnimatedCard>
-
-            <AnimatedCard delay={0.3}>
-              <Card className="h-full border-0 shadow-lg hover:shadow-xl transition-shadow duration-300">
-                <CardHeader>
-                  <CardTitle>Footprint Logger</CardTitle>
-                  <CardDescription>
-                    A footprint logger is a tool that helps individuals track
-                    their carbon footprint and make more sustainable choices.
-                  </CardDescription>
-                </CardHeader>
-                <CardContent>
-                  <div className="aspect-video relative rounded-md overflow-hidden mb-4 bg-gray-100 dark:bg-gray-700 transform transition-transform duration-500 hover:scale-[1.02]">
-                    <Image
-                      src="/images/Footprint.png?height=240&width=400"
-                      alt=".NET Project"
-                      fill
-                      className="object-cover"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-tr from-purple-600/20 to-blue-600/20 opacity-0 hover:opacity-100 transition-opacity duration-300" />
-                  </div>
-                  <p className="text-gray-700 dark:text-gray-300">
-                    Created a footprint logger using the MERN stack, which
-                    allows users to track their carbon footprint and make more
-                    sustainable choices.
-                  </p>
-                  <div className="flex flex-wrap gap-2 mt-4">
-                    <Badge
-                      variant="outline"
-                      className="bg-purple-100/50 dark:bg-purple-900/50 hover:bg-purple-200 transition-colors duration-300"
-                    >
-                      React
-                    </Badge>
-                    <Badge
-                      variant="outline"
-                      className="bg-purple-100/50 dark:bg-purple-900/50 hover:bg-purple-200 transition-colors duration-300"
-                    >
-                      Experience
-                    </Badge>
-                    <Badge
-                      variant="outline"
-                      className="bg-purple-100/50 dark:bg-purple-900/50 hover:bg-purple-200 transition-colors duration-300"
-                    >
-                      Mongo Atlas
-                    </Badge>
-                    <Badge
-                      variant="outline"
-                      className="bg-purple-100/50 dark:bg-purple-900/50 hover:bg-purple-200 transition-colors duration-300"
-                    >
-                      Node.js
-                    </Badge>
-                  </div>
-                </CardContent>
-                <CardFooter>
-                  <Button
-                    asChild
-                    variant="outline"
-                    className="w-full relative overflow-hidden group bg-transparent"
-                  >
-                    <Link
-                      href="https://footprint-logger-frontend.onrender.com/"
-                      target="_blank"
-                    >
-                      <ExternalLink className="w-4 h-4 mr-2" />
-                      <span className="relative z-10">View Website</span>
-                      <span className="absolute inset-0 bg-purple-600 opacity-0 group-hover:opacity-10 transition-opacity duration-300"></span>
-                    </Link>
-                  </Button>
-                </CardFooter>
-              </Card>
-            </AnimatedCard>
-          </div>
-        </div>
-      </section>
+      {/* Projects Section - This is the new component */}
+      <ProjectsSection />
 
       {/* Skills Section */}
       <section
@@ -445,7 +291,7 @@ export default function Home() {
                       variant="secondary"
                       className="justify-center py-2 hover:bg-blue-100 dark:hover:bg-blue-900/50 transition-colors"
                     >
-                      ASP.NET
+                      React
                     </Badge>
                     <Badge
                       variant="secondary"
@@ -486,7 +332,18 @@ export default function Home() {
                     >
                       MongoDB
                     </Badge>
-
+                    <Badge
+                      variant="secondary"
+                      className="justify-center py-2 hover:bg-green-100 dark:hover:bg-green-900/50 transition-colors"
+                    >
+                      Firebase
+                    </Badge>
+                    <Badge
+                      variant="secondary"
+                      className="justify-center py-2 hover:bg-green-100 dark:hover:bg-green-900/50 transition-colors"
+                    >
+                      GCP
+                    </Badge>
                     <Badge
                       variant="secondary"
                       className="justify-center py-2 hover:bg-green-100 dark:hover:bg-green-900/50 transition-colors"
@@ -585,7 +442,9 @@ export default function Home() {
                 <div className="bg-gray-50 dark:bg-gray-700 rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow duration-300 hover:-translate-y-1">
                   <div className="flex flex-col md:flex-row justify-between">
                     <div>
-                      <h4 className="text-xl font-semibold">BEng Robotics</h4>
+                      <h4 className="text-xl font-semibold">
+                        Bachelor of Engineering, Robotics Engineering
+                      </h4>
                       <p className="text-purple-600 dark:text-purple-400">
                         Berlin, Germany
                       </p>
@@ -643,10 +502,14 @@ export default function Home() {
                       <p className="text-purple-600 dark:text-purple-400">
                         University of Cape Town
                       </p>
-                      <p className="text-gray-600 dark:text-gray-400 mt-2 md:mt-0">
-                        Jan '19 - Jan '22
+                      <p className="text-sm text-gray-600 dark:text-gray-400">
+                        Information Systems, Business Process Analysis
+                        Enterprise architecture and Software Development
                       </p>
                     </div>
+                    <p className="text-gray-600 dark:text-gray-400 mt-2 md:mt-0">
+                      Feb '19 - nov '22
+                    </p>
                   </div>
                 </div>
               </div>
