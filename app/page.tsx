@@ -501,7 +501,7 @@ export default function Home() {
                         Bachelor of Commerce, Information Systems
                       </h4>
                       <p className="text-purple-600 dark:text-purple-400">
-                        University of Cape Town, Cape Town, South Africa
+                        University of Cape Town, South Africa
                       </p>
                       <p className="text-sm text-gray-600 dark:text-gray-400">
                         Information Systems, Business Process Analysis
