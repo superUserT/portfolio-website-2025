@@ -446,7 +446,8 @@ export default function Home() {
                         Bachelor of Engineering, Robotics Engineering
                       </h4>
                       <p className="text-purple-600 dark:text-purple-400">
-                        Berlin, Germany
+                        International University Of Applied Sciences Berlin,
+                        Germany
                       </p>
                       <p className="text-sm text-gray-600 dark:text-gray-400">
                         Engineering, Specialization in Robotics
@@ -500,7 +501,7 @@ export default function Home() {
                         Bachelor of Commerce, Information Systems
                       </h4>
                       <p className="text-purple-600 dark:text-purple-400">
-                        University of Cape Town
+                        University of Cape Town, Cape Town, South Africa
                       </p>
                       <p className="text-sm text-gray-600 dark:text-gray-400">
                         Information Systems, Business Process Analysis
