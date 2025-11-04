@@ -68,7 +68,7 @@ export function HeroSection() {
                 className="relative overflow-hidden group"
               >
                 <Link
-                  href="/documents/thabiso-rantsho-resume.pdf"
+                  href="/documents/Thabiso_Rantsho_Resume_2025.pdf"
                   target="_blank"
                   download
                 >

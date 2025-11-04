@@ -95,7 +95,7 @@ export function Navbar() {
               transition={{ delay: 0.8 }}
             >
               <Link
-                href="/documents/thabiso-rantsho-resume.pdf"
+                href="/documents/Thabiso_Rantsho_Resume_2025.pdf"
                 target="_blank"
                 download
               >
@@ -169,7 +169,7 @@ export function Navbar() {
                 transition={{ delay: 0.5 }}
               >
                 <Link
-                  href="/documents/thabiso-rantsho-resume.pdf"
+                  href="/documents/Thabiso_Rantsho_Resume_2025.pdf"
                   target="_blank"
                   download
                   className="block px-3 py-2 rounded-md text-base font-medium hover:text-purple-600 dark:hover:text-purple-400 transition-colors"
