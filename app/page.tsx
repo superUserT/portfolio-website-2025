@@ -28,23 +28,17 @@ import {
     ParticleBackground,
     AnimatedGradientBackground,
 } from "@/components/client-animations";
-// Import the new ProjectsSection component
 import { ProjectsSection } from "@/components/projects-section";
 import { GithubActivity } from "@/components/github-calendar";
 
 export default function Home() {
     return (
         <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-950">
-            {/* Background Effects */}
             <AnimatedGradientBackground />
             <ParticleBackground />
             <ScrollIndicator />
             <SmoothScroll />
-
-            {/* Navigation */}
             <Navbar />
-
-            {/* Hero Section */}
             <HeroSection />
 
             {/* About Section */}
@@ -63,24 +57,15 @@ export default function Home() {
                         <AnimatedSection direction="left" delay={0.2}>
                             <div className="space-y-4">
                                 <p className="text-lg text-gray-700 dark:text-gray-300">
-                                    I am Thabiso Rantsho, a Junior Web Developer
-                                    based in Randburg, South Africa. My passion
-                                    lies in crafting dynamic and user-friendly
-                                    web experiences.
+                                    I am Thabiso Rantsho, a Full Stack Developer [cite: 5]
+                                    based in Johannesburg, South Africa[cite: 2]. I specialize in
+                                    building scalable web applications and leading junior development teams[cite: 6].
                                 </p>
                                 <p className="text-lg text-gray-700 dark:text-gray-300">
-                                    I have hands-on experience from my time at
-                                    Monsfi Marketing, where I built websites for
-                                    various clients, and as a Junior Software
-                                    Developer recruit, I gained valuable
-                                    experience in software development.
-                                </p>
-                                <p className="text-lg text-gray-700 dark:text-gray-300">
-                                    My technical skills include JavaScript,
-                                    Python, C++, and various web technologies
-                                    like freecad, HTML, and CSS. I am always
-                                    eager to learn and apply new technologies to
-                                    solve real-world problems.
+                                    Currently, I am expanding my technical depth through a 
+                                    Bsc Honours in Computing[cite: 7]. I am deeply passionate about 
+                                    Clean Code, Agile methodologies, and building efficient, 
+                                    user-centric software solutions[cite: 8].
                                 </p>
                             </div>
                         </AnimatedSection>
@@ -88,40 +73,21 @@ export default function Home() {
                         <AnimatedSection direction="right" delay={0.4}>
                             <div>
                                 <h3 className="text-xl font-semibold mb-4">
-                                    Key Expertise
+                                    Professional Focus
                                 </h3>
                                 <ul className="space-y-2">
-                                    <li className="flex items-start group">
-                                        <ChevronRight className="w-5 h-5 text-purple-600 mt-0.5 flex-shrink-0 transform group-hover:translate-x-1 transition-transform duration-300" />
-                                        <span className="text-gray-700 dark:text-gray-300">
-                                            Full-Stack Web Development
-                                        </span>
-                                    </li>
-                                    <li className="flex items-start group">
-                                        <ChevronRight className="w-5 h-5 text-purple-600 mt-0.5 flex-shrink-0 transform group-hover:translate-x-1 transition-transform duration-300" />
-                                        <span className="text-gray-700 dark:text-gray-300">
-                                            UI Development with HTML/CSS &
-                                            JavaScript
-                                        </span>
-                                    </li>
-                                    <li className="flex items-start group">
-                                        <ChevronRight className="w-5 h-5 text-purple-600 mt-0.5 flex-shrink-0 transform group-hover:translate-x-1 transition-transform duration-300" />
-                                        <span className="text-gray-700 dark:text-gray-300">
-                                            Backend Development with JavaScript
-                                        </span>
-                                    </li>
-                                    <li className="flex items-start group">
-                                        <ChevronRight className="w-5 h-5 text-purple-600 mt-0.5 flex-shrink-0 transform group-hover:translate-x-1 transition-transform duration-300" />
-                                        <span className="text-gray-700 dark:text-gray-300">
-                                            Agile & Scrum Methodologies
-                                        </span>
-                                    </li>
-                                    <li className="flex items-start group">
-                                        <ChevronRight className="w-5 h-5 text-purple-600 mt-0.5 flex-shrink-0 transform group-hover:translate-x-1 transition-transform duration-300" />
-                                        <span className="text-gray-700 dark:text-gray-300">
-                                            SEO Optimization & Analytics
-                                        </span>
-                                    </li>
+                                    {[
+                                        "Full-Stack Web Development (Node.js, React) [cite: 5]",
+                                        "Database Management (PostgreSQL, MongoDB) [cite: 6, 12]",
+                                        "Technical Leadership & Mentorship [cite: 6, 25]",
+                                        "Agile & Scrum Methodologies [cite: 8, 26]",
+                                        "DevOps & CI/CD Pipelines [cite: 13]",
+                                    ].map((item, i) => (
+                                        <li key={i} className="flex items-start group">
+                                            <ChevronRight className="w-5 h-5 text-purple-600 mt-0.5 flex-shrink-0 transform group-hover:translate-x-1 transition-transform duration-300" />
+                                            <span className="text-gray-700 dark:text-gray-300">{item}</span>
+                                        </li>
+                                    ))}
                                 </ul>
                             </div>
                         </AnimatedSection>
@@ -142,76 +108,55 @@ export default function Home() {
                     </AnimatedSection>
 
                     <div className="space-y-8">
+                        {/* Software Developer Intern - Umuzi */}
                         <AnimatedSection delay={0.2}>
                             <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 border-l-4 border-purple-600 hover:-translate-y-1 transition-transform duration-300">
                                 <div className="flex flex-col md:flex-row md:items-center justify-between mb-4">
                                     <div>
-                                        <h3 className="text-xl font-bold">
-                                            Web developer
-                                        </h3>
-                                        <p className="text-purple-600 dark:text-purple-400 font-medium">
-                                            Monsfi Marketing, Cape Town, WP
-                                        </p>
+                                        <h3 className="text-xl font-bold">Software Developer Intern [cite: 15]</h3>
+                                        <p className="text-purple-600 dark:text-purple-400 font-medium">Umuzi.org [cite: 16]</p>
                                     </div>
-                                    <p className="text-gray-600 dark:text-gray-400 mt-2 md:mt-0">
-                                        Jun '24 - Present
-                                    </p>
+                                    <p className="text-gray-600 dark:text-gray-400 mt-2 md:mt-0 font-medium">Nov '25 - Present [cite: 17]</p>
                                 </div>
                                 <ul className="space-y-2 list-disc list-inside text-gray-700 dark:text-gray-300">
-                                    <li>
-                                        Crafted websites for diverse clients,
-                                        elevating online sales & enhancing user
-                                        engagement metrics.
-                                    </li>
-                                    <li>
-                                        Boosted organic traffic by 50% and
-                                        enhanced lead generation through SEO
-                                        optimization utilizing Google Analytics.
-                                    </li>
-                                    <li>
-                                        Executed updates for WP sites using
-                                        WordPress CMS & react websites to boost
-                                        user engagement.
-                                    </li>
+                                    <li>Optimized team workflows by designing full-stack React components and APIs with Node.js[cite: 19].</li>
+                                    <li>Captured technical requirements for seamless data integration with legacy systems[cite: 20].</li>
+                                    <li>Enhanced code efficiency by executing thorough peer reviews on GitHub[cite: 21].</li>
                                 </ul>
                             </div>
                         </AnimatedSection>
 
+                        {/* Junior Tech Lead - Umuzi */}
                         <AnimatedSection delay={0.3}>
                             <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 border-l-4 border-purple-600 hover:-translate-y-1 transition-transform duration-300">
                                 <div className="flex flex-col md:flex-row md:items-center justify-between mb-4">
                                     <div>
-                                        <h3 className="text-xl font-bold">
-                                            Junior Software Developer Intern
-                                        </h3>
-                                        <p className="text-purple-600 dark:text-purple-400 font-medium">
-                                            University of Cape Town and
-                                            Freshgold, Cape Town, WP (Course
-                                            Work)
-                                        </p>
+                                        <h3 className="text-xl font-bold">Junior Tech Lead [cite: 22]</h3>
+                                        <p className="text-purple-600 dark:text-purple-400 font-medium">Umuzi [cite: 23]</p>
                                     </div>
-                                    <p className="text-gray-600 dark:text-gray-400 mt-2 md:mt-0">
-                                        Jan '21 - Nov '21
-                                    </p>
+                                    <p className="text-gray-600 dark:text-gray-400 mt-2 md:mt-0 font-medium">Feb '25 - Present [cite: 24]</p>
                                 </div>
                                 <ul className="space-y-2 list-disc list-inside text-gray-700 dark:text-gray-300">
-                                    <li>
-                                        Played a key role in evolving software
-                                        in .net through a final year project,
-                                        resulting in a 20% efficiency increase &
-                                        UI enhancements.
-                                    </li>
-                                    <li>
-                                        Propelled client satisfaction by
-                                        introducing Freshgold Docs as an
-                                        innovative solution, resulting in a 20%
-                                        boost in client contentment.
-                                    </li>
-                                    <li>
-                                        Steered software design & development
-                                        process using agile & scrum
-                                        methodologies.
-                                    </li>
+                                    <li>Guided a cohort of junior developers in mastering full-stack web development using Node.js, MongoDB, and React[cite: 25].</li>
+                                    <li>Resolved complex technical issues using Git to drive performance in Agile cycles[cite: 25].</li>
+                                    <li>Championed daily stand-ups and retrospectives utilizing Agile and Kanban boards[cite: 26].</li>
+                                </ul>
+                            </div>
+                        </AnimatedSection>
+
+                        {/* Freelance - Monsfi */}
+                        <AnimatedSection delay={0.4}>
+                            <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 border-l-4 border-purple-600 hover:-translate-y-1 transition-transform duration-300">
+                                <div className="flex flex-col md:flex-row md:items-center justify-between mb-4">
+                                    <div>
+                                        <h3 className="text-xl font-bold">Remote Freelance Web Developer [cite: 27]</h3>
+                                        <p className="text-purple-600 dark:text-purple-400 font-medium">Monsfi Marketing [cite: 28]</p>
+                                    </div>
+                                    <p className="text-gray-600 dark:text-gray-400 mt-2 md:mt-0 font-medium">Jun '24 - Present [cite: 29]</p>
+                                </div>
+                                <ul className="space-y-2 list-disc list-inside text-gray-700 dark:text-gray-300">
+                                    <li>Delivered responsive websites prioritizing mobile optimization and accessible design[cite: 31].</li>
+                                    <li>Leveraged SEO strategies and Google Analytics, resulting in a 20% increase in conversion rates[cite: 32].</li>
                                 </ul>
                             </div>
                         </AnimatedSection>
@@ -219,7 +164,6 @@ export default function Home() {
                 </div>
             </section>
 
-            {/* Projects Section - This is the new component */}
             <ProjectsSection />
 
             {/* Skills Section */}
@@ -234,194 +178,62 @@ export default function Home() {
                         </h2>
                     </AnimatedSection>
 
-                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
+                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
                         <AnimatedSection direction="up" delay={0.2}>
-                            <Card className="h-full border-0 shadow-lg hover:shadow-xl transition-shadow duration-300 bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm">
+                            <Card className="h-full border-0 shadow-lg bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm">
                                 <CardHeader>
-                                    <CardTitle className="flex items-center">
-                                        <span className="w-8 h-8 rounded-full bg-purple-100 dark:bg-purple-900 flex items-center justify-center mr-2">
-                                            <span className="text-purple-600 dark:text-purple-300 text-sm font-bold">
-                                                PROG
-                                            </span>
-                                        </span>
-                                        Programming & Languages
-                                    </CardTitle>
+                                    <CardTitle className="flex items-center">Frontend [cite: 10]</CardTitle>
                                 </CardHeader>
                                 <CardContent>
-                                    <div className="grid grid-cols-2 gap-3">
-                                        <Badge
-                                            variant="secondary"
-                                            className="justify-center py-2 hover:bg-purple-100 dark:hover:bg-purple-900/50 transition-colors"
-                                        >
-                                            JavaScript
-                                        </Badge>
-                                        <Badge
-                                            variant="secondary"
-                                            className="justify-center py-2 hover:bg-purple-100 dark:hover:bg-purple-900/50 transition-colors"
-                                        >
-                                            Python
-                                        </Badge>
-                                        <Badge
-                                            variant="secondary"
-                                            className="justify-center py-2 hover:bg-purple-100 dark:hover:bg-purple-900/50 transition-colors"
-                                        >
-                                            C++
-                                        </Badge>
-                                        <Badge
-                                            variant="secondary"
-                                            className="justify-center py-2 hover:bg-purple-100 dark:hover:bg-purple-900/50 transition-colors"
-                                        >
-                                            C#
-                                        </Badge>
-                                        <Badge
-                                            variant="secondary"
-                                            className="justify-center py-2 hover:bg-purple-100 dark:hover:bg-purple-900/50 transition-colors"
-                                        >
-                                            TypeScript
-                                        </Badge>
-                                        <Badge
-                                            variant="secondary"
-                                            className="justify-center py-2 hover:bg-purple-100 dark:hover:bg-purple-900/50 transition-colors"
-                                        >
-                                            HTML 5
-                                        </Badge>
+                                    <div className="flex flex-wrap gap-3">
+                                        {["HTML5", "CSS3", "JavaScript (ES6+)", "React.js"].map((skill) => (
+                                            <Badge key={skill} variant="secondary" className="py-2 px-4">{skill}</Badge>
+                                        ))}
                                     </div>
                                 </CardContent>
                             </Card>
                         </AnimatedSection>
 
                         <AnimatedSection direction="up" delay={0.3}>
-                            <Card className="h-full border-0 shadow-lg hover:shadow-xl transition-shadow duration-300 bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm">
+                            <Card className="h-full border-0 shadow-lg bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm">
                                 <CardHeader>
-                                    <CardTitle className="flex items-center">
-                                        <span className="w-8 h-8 rounded-full bg-blue-100 dark:bg-blue-900 flex items-center justify-center mr-2">
-                                            <span className="text-blue-600 dark:text-blue-300 text-sm font-bold">
-                                                TECH
-                                            </span>
-                                        </span>
-                                        Frameworks & Technologies
-                                    </CardTitle>
+                                    <CardTitle className="flex items-center">Backend [cite: 11]</CardTitle>
                                 </CardHeader>
                                 <CardContent>
-                                    <div className="grid grid-cols-2 gap-3">
-                                        <Badge
-                                            variant="secondary"
-                                            className="justify-center py-2 hover:bg-blue-100 dark:hover:bg-blue-900/50 transition-colors"
-                                        >
-                                            React
-                                        </Badge>
-                                        <Badge
-                                            variant="secondary"
-                                            className="justify-center py-2 hover:bg-blue-100 dark:hover:bg-blue-900/50 transition-colors"
-                                        >
-                                            React Native
-                                        </Badge>
+                                    <div className="flex flex-wrap gap-3">
+                                        {["Node.js", "Express", "Python", "C#", ".Net Core", "REST APIs"].map((skill) => (
+                                            <Badge key={skill} variant="secondary" className="py-2 px-4">{skill}</Badge>
+                                        ))}
                                     </div>
                                 </CardContent>
                             </Card>
                         </AnimatedSection>
-                    </div>
 
-                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
                         <AnimatedSection direction="up" delay={0.4}>
-                            <Card className="h-full border-0 shadow-lg hover:shadow-xl transition-shadow duration-300 bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm">
+                            <Card className="h-full border-0 shadow-lg bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm">
                                 <CardHeader>
-                                    <CardTitle className="flex items-center">
-                                        <span className="w-8 h-8 rounded-full bg-green-100 dark:bg-green-900 flex items-center justify-center mr-2">
-                                            <span className="text-green-600 dark:text-green-300 text-sm font-bold">
-                                                DATA
-                                            </span>
-                                        </span>
-                                        Databases & Platforms
-                                    </CardTitle>
+                                    <CardTitle className="flex items-center">Database [cite: 12]</CardTitle>
                                 </CardHeader>
                                 <CardContent>
-                                    <div className="grid grid-cols-2 gap-3">
-                                        <Badge
-                                            variant="secondary"
-                                            className="justify-center py-2 hover:bg-green-100 dark:hover:bg-green-900/50 transition-colors"
-                                        >
-                                            Postgres
-                                        </Badge>
-                                        <Badge
-                                            variant="secondary"
-                                            className="justify-center py-2 hover:bg-green-100 dark:hover:bg-green-900/50 transition-colors"
-                                        >
-                                            MongoDB
-                                        </Badge>
-                                        <Badge
-                                            variant="secondary"
-                                            className="justify-center py-2 hover:bg-green-100 dark:hover:bg-green-900/50 transition-colors"
-                                        >
-                                            Firebase
-                                        </Badge>
-                                        <Badge
-                                            variant="secondary"
-                                            className="justify-center py-2 hover:bg-green-100 dark:hover:bg-green-900/50 transition-colors"
-                                        >
-                                            GCP
-                                        </Badge>
-                                        <Badge
-                                            variant="secondary"
-                                            className="justify-center py-2 hover:bg-green-100 dark:hover:bg-green-900/50 transition-colors"
-                                        >
-                                            Azure
-                                        </Badge>
+                                    <div className="flex flex-wrap gap-3">
+                                        {["SQL", "PostgreSQL", "MongoDB"].map((skill) => (
+                                            <Badge key={skill} variant="secondary" className="py-2 px-4">{skill}</Badge>
+                                        ))}
                                     </div>
                                 </CardContent>
                             </Card>
                         </AnimatedSection>
 
                         <AnimatedSection direction="up" delay={0.5}>
-                            <Card className="h-full border-0 shadow-lg hover:shadow-xl transition-shadow duration-300 bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm">
+                            <Card className="h-full border-0 shadow-lg bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm">
                                 <CardHeader>
-                                    <CardTitle className="flex items-center">
-                                        <span className="w-8 h-8 rounded-full bg-orange-100 dark:bg-orange-900 flex items-center justify-center mr-2">
-                                            <span className="text-orange-600 dark:text-orange-300 text-sm font-bold">
-                                                TOOLS
-                                            </span>
-                                        </span>
-                                        Tools & Methodologies
-                                    </CardTitle>
+                                    <CardTitle className="flex items-center">DevOps & Tools [cite: 13]</CardTitle>
                                 </CardHeader>
                                 <CardContent>
-                                    <div className="grid grid-cols-2 gap-3">
-                                        <Badge
-                                            variant="secondary"
-                                            className="justify-center py-2 hover:bg-orange-100 dark:hover:bg-orange-900/50 transition-colors"
-                                        >
-                                            Git & GitHub
-                                        </Badge>
-                                        <Badge
-                                            variant="secondary"
-                                            className="justify-center py-2 hover:bg-orange-100 dark:hover:bg-orange-900/50 transition-colors"
-                                        >
-                                            Gitlab
-                                        </Badge>
-                                        <Badge
-                                            variant="secondary"
-                                            className="justify-center py-2 hover:bg-orange-100 dark:hover:bg-orange-900/50 transition-colors"
-                                        >
-                                            Agile
-                                        </Badge>
-                                        <Badge
-                                            variant="secondary"
-                                            className="justify-center py-2 hover:bg-orange-100 dark:hover:bg-orange-900/50 transition-colors"
-                                        >
-                                            Scrum
-                                        </Badge>
-                                        <Badge
-                                            variant="secondary"
-                                            className="justify-center py-2 hover:bg-orange-100 dark:hover:bg-orange-900/50 transition-colors"
-                                        >
-                                            SEO
-                                        </Badge>
-                                        <Badge
-                                            variant="secondary"
-                                            className="justify-center py-2 hover:bg-orange-100 dark:hover:bg-orange-900/50 transition-colors"
-                                        >
-                                            Google Analytics
-                                        </Badge>
+                                    <div className="flex flex-wrap gap-3">
+                                        {["Git", "Docker", "Jest (Testing)", "CI/CD Pipelines"].map((skill) => (
+                                            <Badge key={skill} variant="secondary" className="py-2 px-4">{skill}</Badge>
+                                        ))}
                                     </div>
                                 </CardContent>
                             </Card>
@@ -430,17 +242,16 @@ export default function Home() {
                 </div>
             </section>
 
-            {/* GitHub Activity Section */}
+            {/* GitHub Activity */}
             <section className="py-16 px-4 bg-white dark:bg-gray-800 relative">
                 <div className="container mx-auto max-w-6xl relative z-10">
                     <AnimatedSection delay={0.2}>
-                        {/* The username is inferred from the portfolio URL. The component may need to be modified to accept a 'username' prop. */}
                         <GithubActivity username="superusert" />
                     </AnimatedSection>
                 </div>
             </section>
 
-            {/* Education & Achievements */}
+            {/* Education Section */}
             <section
                 id="education"
                 className="py-16 px-4 bg-white dark:bg-gray-800 relative"
@@ -448,152 +259,34 @@ export default function Home() {
                 <div className="container mx-auto max-w-6xl relative z-10">
                     <AnimatedSection>
                         <h2 className="text-3xl font-bold mb-8 text-center">
-                            Education & Achievements
+                            Education
                         </h2>
                     </AnimatedSection>
 
-                    <div className="mb-12">
+                    <div className="space-y-6">
                         <AnimatedSection direction="left" delay={0.2}>
-                            <h3 className="text-2xl font-bold mb-6">
-                                Education
-                            </h3>
-                            <div className="space-y-4">
-                                <div className="bg-gray-50 dark:bg-gray-700 rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow duration-300 hover:-translate-y-1">
-                                    <div className="flex flex-col md:flex-row justify-between">
-                                        <div>
-                                            <h4 className="text-xl font-semibold">
-                                                Bachelor of Engineering,
-                                                Robotics Engineering
-                                            </h4>
-                                            <p className="text-purple-600 dark:text-purple-400">
-                                                International University Of
-                                                Applied Sciences Berlin, Germany
-                                            </p>
-                                            <p className="text-sm text-gray-600 dark:text-gray-400">
-                                                Engineering, Specialization in
-                                                Robotics
-                                            </p>
-                                        </div>
-                                        <p className="text-gray-600 dark:text-gray-400 mt-2 md:mt-0">
-                                            Jan '25 - Present
-                                        </p>
+                            <div className="bg-gray-50 dark:bg-gray-700 rounded-lg p-6 shadow-md hover:-translate-y-1 transition-transform">
+                                <div className="flex flex-col md:flex-row justify-between">
+                                    <div>
+                                        <h4 className="text-xl font-semibold">BSc Honours in Computing [cite: 34]</h4>
+                                        <p className="text-purple-600 dark:text-purple-400">UNISA [cite: 36]</p>
+                                        <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">Focus: Advanced Computer Science logic and AI[cite: 38].</p>
+                                        <p className="text-xs text-gray-500 mt-1">Modules: Logic-Based Reasoning, AI, Research Methodology[cite: 39].</p>
                                     </div>
-                                </div>
-                                <div className="bg-gray-50 dark:bg-gray-700 rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow duration-300 hover:-translate-y-1">
-                                    <div className="flex flex-col md:flex-row justify-between">
-                                        <div>
-                                            <h4 className="text-xl font-semibold">
-                                                Web Developer Recruit
-                                            </h4>
-                                            <p className="text-purple-600 dark:text-purple-400">
-                                                Umuzi/BBD, Johannesburg
-                                            </p>
-                                            <p className="text-sm text-gray-600 dark:text-gray-400">
-                                                Web and Mobile application
-                                                development
-                                            </p>
-                                        </div>
-                                        <p className="text-gray-600 dark:text-gray-400 mt-2 md:mt-0">
-                                            Apr '24 - Present
-                                        </p>
-                                    </div>
-                                </div>
-                                <div className="bg-gray-50 dark:bg-gray-700 rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow duration-300 hover:-translate-y-1">
-                                    <div className="flex flex-col md:flex-row justify-between">
-                                        <div>
-                                            <h4 className="text-xl font-semibold">
-                                                Full stack Software Engineering
-                                            </h4>
-                                            <p className="text-purple-600 dark:text-purple-400">
-                                                ALX Africa, Johannesburg
-                                            </p>
-                                            <p className="text-sm text-gray-600 dark:text-gray-400">
-                                                full stack development, Backend
-                                                Specialisation
-                                            </p>
-                                        </div>
-                                        <p className="text-gray-600 dark:text-gray-400 mt-2 md:mt-0">
-                                            Jan '22 - Jan '23
-                                        </p>
-                                    </div>
-                                </div>
-                                <div className="bg-gray-50 dark:bg-gray-700 rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow duration-300 hover:-translate-y-1">
-                                    <div className="flex flex-col md:flex-row justify-between">
-                                        <div>
-                                            <h4 className="text-xl font-semibold">
-                                                Bachelor of Commerce,
-                                                Information Systems
-                                            </h4>
-                                            <p className="text-purple-600 dark:text-purple-400">
-                                                University of Cape Town, South
-                                                Africa
-                                            </p>
-                                            <p className="text-sm text-gray-600 dark:text-gray-400">
-                                                Information Systems, Business
-                                                Process Analysis Enterprise
-                                                architecture and Software
-                                                Development
-                                            </p>
-                                        </div>
-                                        <p className="text-gray-600 dark:text-gray-400 mt-2 md:mt-0">
-                                            Feb '19 - nov '22
-                                        </p>
-                                    </div>
+                                    <p className="text-gray-600 dark:text-gray-400 mt-2 md:mt-0 font-medium">Jan '26 - Present [cite: 35]</p>
                                 </div>
                             </div>
                         </AnimatedSection>
-                    </div>
 
-                    <div>
-                        <AnimatedSection direction="right" delay={0.3}>
-                            <h3 className="text-2xl font-bold mb-6">
-                                Prizes & Achievements
-                            </h3>
-                            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                                <div className="bg-gray-50 dark:bg-gray-700 rounded-lg p-4 shadow-md hover:shadow-lg transition-shadow duration-300 hover:-translate-y-1">
-                                    <h4 className="font-semibold">
-                                        Rlabs Scholarship Recipient
-                                    </h4>
-                                    <p className="text-gray-600 dark:text-gray-400">
-                                        Recipient of the Rlabs Scholarship for
-                                        academic excellence.
-                                    </p>
-                                </div>
-                                <div className="bg-gray-50 dark:bg-gray-700 rounded-lg p-4 shadow-md hover:shadow-lg transition-shadow duration-300 hover:-translate-y-1">
-                                    <h4 className="font-semibold">
-                                        SAMSA Bursary Holder
-                                    </h4>
-                                    <p className="text-gray-600 dark:text-gray-400">
-                                        Completed Maritime Studies program at
-                                        Lawhill Maritime Centre (2016-2019).
-                                    </p>
-                                </div>
-                                <div className="bg-gray-50 dark:bg-gray-700 rounded-lg p-4 shadow-md hover:shadow-lg transition-shadow duration-300 hover:-translate-y-1">
-                                    <h4 className="font-semibold">
-                                        Foreign Exchange Program
-                                    </h4>
-                                    <p className="text-gray-600 dark:text-gray-400">
-                                        Enhanced Mandarin proficiency at Sun
-                                        Yet-Sen University, China.
-                                    </p>
-                                </div>
-                                <div className="bg-gray-50 dark:bg-gray-700 rounded-lg p-4 shadow-md hover:shadow-lg transition-shadow duration-300 hover:-translate-y-1">
-                                    <h4 className="font-semibold">
-                                        Chinese Bridge Competition Finalist
-                                    </h4>
-                                    <p className="text-gray-600 dark:text-gray-400">
-                                        Showcased language proficiency and
-                                        cultural knowledge.
-                                    </p>
-                                </div>
-                                <div className="bg-gray-50 dark:bg-gray-700 rounded-lg p-4 shadow-md hover:shadow-lg transition-shadow duration-300 hover:-translate-y-1">
-                                    <h4 className="font-semibold">
-                                        Academic Excellence
-                                    </h4>
-                                    <p className="text-gray-600 dark:text-gray-400">
-                                        Ranked as a Top 10 Student and was the
-                                        top achiever in Business Studies.
-                                    </p>
+                        <AnimatedSection direction="left" delay={0.3}>
+                            <div className="bg-gray-50 dark:bg-gray-700 rounded-lg p-6 shadow-md hover:-translate-y-1 transition-transform">
+                                <div className="flex flex-col md:flex-row justify-between">
+                                    <div>
+                                        <h4 className="text-xl font-semibold">BCom Information Systems [cite: 39]</h4>
+                                        <p className="text-purple-600 dark:text-purple-400">University of Cape Town [cite: 40]</p>
+                                        <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">Core Coursework: Systems Analysis & Design, Database Management[cite: 42].</p>
+                                    </div>
+                                    <p className="text-gray-600 dark:text-gray-400 mt-2 md:mt-0 font-medium">Completed Jan '25 [cite: 41]</p>
                                 </div>
                             </div>
                         </AnimatedSection>
@@ -616,59 +309,20 @@ export default function Home() {
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                         <AnimatedSection direction="left" delay={0.2}>
                             <div className="space-y-6">
-                                <h3 className="text-xl font-semibold">
-                                    Contact Information
-                                </h3>
+                                <h3 className="text-xl font-semibold">Contact Information</h3>
                                 <div className="space-y-4">
-                                    <div className="flex items-center hover:translate-x-1 transition-transform duration-300">
+                                    <div className="flex items-center">
                                         <Mail className="w-5 h-5 text-purple-600 mr-3" />
-                                        <a
-                                            href="mailto:rantshothabisomail@gmail.com"
-                                            className="text-gray-700 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400 transition-colors"
-                                        >
-                                            rantshothabisomail@gmail.com
-                                        </a>
+                                        <a href="mailto:rantshothabisomail@gmail.com" className="text-gray-700 dark:text-gray-300 hover:text-purple-600">rantshothabisomail@gmail.com [cite: 2]</a>
                                     </div>
-                                    <div className="flex items-center hover:translate-x-1 transition-transform duration-300">
+                                    <div className="flex items-center">
                                         <Linkedin className="w-5 h-5 text-purple-600 mr-3" />
-                                        <a
-                                            href="https://www.linkedin.com/in/thabiso-rantsho-34849b14a"
-                                            target="_blank"
-                                            className="text-gray-700 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400 transition-colors"
-                                            rel="noreferrer"
-                                        >
-                                            LinkedIn Profile
-                                        </a>
+                                        <a href="https://www.linkedin.com/in/thabiso-rantsho-34849b14a" target="_blank" className="text-gray-700 dark:text-gray-300 hover:text-purple-600">LinkedIn Profile [cite: 2]</a>
                                     </div>
-                                    <div className="flex items-center hover:translate-x-1 transition-transform duration-300">
+                                    <div className="flex items-center">
                                         <Github className="w-5 h-5 text-purple-600 mr-3" />
-                                        <a
-                                            href="https://github.com/superusert"
-                                            target="_blank"
-                                            className="text-gray-700 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400 transition-colors"
-                                            rel="noreferrer"
-                                        >
-                                            GitHub Profile
-                                        </a>
+                                        <a href="https://github.com/superusert" target="_blank" className="text-gray-700 dark:text-gray-300 hover:text-purple-600">GitHub Profile [cite: 2]</a>
                                     </div>
-                                    <div className="flex items-center hover:translate-x-1 transition-transform duration-300">
-                                        <ExternalLink className="w-5 h-5 text-purple-600 mr-3" />
-                                        <a
-                                            href="https://superusert.github.io/React-Portfolio-Site/"
-                                            target="_blank"
-                                            className="text-gray-700 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400 transition-colors"
-                                            rel="noreferrer"
-                                        >
-                                            Portfolio
-                                        </a>
-                                    </div>
-                                </div>
-                                <div className="pt-4">
-                                    <p className="text-gray-700 dark:text-gray-300">
-                                        I'm always open to discussing new
-                                        projects, opportunities, or
-                                        partnerships. Feel free to reach out!
-                                    </p>
                                 </div>
                             </div>
                         </AnimatedSection>
@@ -682,53 +336,12 @@ export default function Home() {
                 </div>
             </section>
 
-            {/* Footer */}
             <footer className="py-8 px-4 bg-gray-800 dark:bg-gray-950 text-white relative">
-                <div className="container mx-auto max-w-6xl relative z-10">
-                    <div className="flex flex-col md:flex-row justify-between items-center">
-                        <div className="mb-4 md:mb-0">
-                            <h2 className="text-xl font-bold">
-                                Thabiso Rantsho
-                            </h2>
-                            <p className="text-gray-400">
-                                Junior Web Developer
-                            </p>
-                        </div>
-                        <div className="flex space-x-4">
-                            <Link
-                                href="https://www.linkedin.com/in/thabiso-rantsho-34849b14a"
-                                target="_blank"
-                                className="text-gray-400 hover:text-white transition-colors transform hover:scale-110 duration-300"
-                            >
-                                <Linkedin className="w-5 h-5" />
-                            </Link>
-                            <Link
-                                href="https://github.com/superusert"
-                                target="_blank"
-                                className="text-gray-400 hover:text-white transition-colors transform hover:scale-110 duration-300"
-                            >
-                                <Github className="w-5 h-5" />
-                            </Link>
-                            <Link
-                                href="https://superusert.github.io/React-Portfolio-Site/"
-                                target="_blank"
-                                className="text-gray-400 hover:text-white transition-colors transform hover:scale-110 duration-300"
-                            >
-                                <ExternalLink className="w-5 h-5" />
-                            </Link>
-                            <Link
-                                href="mailto:rantshothabisomail@gmail.com"
-                                className="text-gray-400 hover:text-white transition-colors transform hover:scale-110 duration-300"
-                            >
-                                <Mail className="w-5 h-5" />
-                            </Link>
-                        </div>
-                    </div>
-                    <div className="mt-6 text-center text-gray-400 text-sm">
-                        <p>
-                            © {new Date().getFullYear()} Thabiso Rantsho. All
-                            rights reserved.
-                        </p>
+                <div className="container mx-auto max-w-6xl relative z-10 text-center">
+                    <h2 className="text-xl font-bold">Thabiso Rantsho [cite: 1]</h2>
+                    <p className="text-gray-400">Full Stack Developer [cite: 5]</p>
+                    <div className="mt-6 text-gray-400 text-sm">
+                        <p>© {new Date().getFullYear()} Thabiso Rantsho. All rights reserved.</p>
                     </div>
                 </div>
             </footer>
