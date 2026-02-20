@@ -57,15 +57,15 @@ export default function Home() {
                         <AnimatedSection direction="left" delay={0.2}>
                             <div className="space-y-4">
                                 <p className="text-lg text-gray-700 dark:text-gray-300">
-                                    I am Thabiso Rantsho, a Full Stack Developer [cite: 5]
-                                    based in Johannesburg, South Africa[cite: 2]. I specialize in
-                                    building scalable web applications and leading junior development teams[cite: 6].
+                                    I am Thabiso Rantsho, a Full Stack Developer
+                                    based in Johannesburg, South Africa. I specialize in
+                                    building scalable web applications and leading junior development teams.
                                 </p>
                                 <p className="text-lg text-gray-700 dark:text-gray-300">
                                     Currently, I am expanding my technical depth through a 
-                                    Bsc Honours in Computing[cite: 7]. I am deeply passionate about 
+                                    Bsc Honours in Computing. I am deeply passionate about 
                                     Clean Code, Agile methodologies, and building efficient, 
-                                    user-centric software solutions[cite: 8].
+                                    user-centric software solutions.
                                 </p>
                             </div>
                         </AnimatedSection>
@@ -77,11 +77,11 @@ export default function Home() {
                                 </h3>
                                 <ul className="space-y-2">
                                     {[
-                                        "Full-Stack Web Development (Node.js, React) [cite: 5]",
-                                        "Database Management (PostgreSQL, MongoDB) [cite: 6, 12]",
-                                        "Technical Leadership & Mentorship [cite: 6, 25]",
-                                        "Agile & Scrum Methodologies [cite: 8, 26]",
-                                        "DevOps & CI/CD Pipelines [cite: 13]",
+                                        "Full-Stack Web Development (Node.js, React)",
+                                        "Database Management (PostgreSQL, MongoDB)",
+                                        "Technical Leadership & Mentorship",
+                                        "Agile & Scrum Methodologies",
+                                        "DevOps & CI/CD Pipelines",
                                     ].map((item, i) => (
                                         <li key={i} className="flex items-start group">
                                             <ChevronRight className="w-5 h-5 text-purple-600 mt-0.5 flex-shrink-0 transform group-hover:translate-x-1 transition-transform duration-300" />
@@ -113,15 +113,15 @@ export default function Home() {
                             <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 border-l-4 border-purple-600 hover:-translate-y-1 transition-transform duration-300">
                                 <div className="flex flex-col md:flex-row md:items-center justify-between mb-4">
                                     <div>
-                                        <h3 className="text-xl font-bold">Software Developer Intern [cite: 15]</h3>
-                                        <p className="text-purple-600 dark:text-purple-400 font-medium">Umuzi.org [cite: 16]</p>
+                                        <h3 className="text-xl font-bold">Software Developer Intern</h3>
+                                        <p className="text-purple-600 dark:text-purple-400 font-medium">Umuzi.org</p>
                                     </div>
-                                    <p className="text-gray-600 dark:text-gray-400 mt-2 md:mt-0 font-medium">Nov '25 - Present [cite: 17]</p>
+                                    <p className="text-gray-600 dark:text-gray-400 mt-2 md:mt-0 font-medium">Nov '25 - Present</p>
                                 </div>
                                 <ul className="space-y-2 list-disc list-inside text-gray-700 dark:text-gray-300">
-                                    <li>Optimized team workflows by designing full-stack React components and APIs with Node.js[cite: 19].</li>
-                                    <li>Captured technical requirements for seamless data integration with legacy systems[cite: 20].</li>
-                                    <li>Enhanced code efficiency by executing thorough peer reviews on GitHub[cite: 21].</li>
+                                    <li>Optimized team workflows by designing full-stack React components and APIs with Node.js.</li>
+                                    <li>Captured technical requirements for seamless data integration with legacy systems.</li>
+                                    <li>Enhanced code efficiency by executing thorough peer reviews on GitHub.</li>
                                 </ul>
                             </div>
                         </AnimatedSection>
@@ -131,15 +131,15 @@ export default function Home() {
                             <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 border-l-4 border-purple-600 hover:-translate-y-1 transition-transform duration-300">
                                 <div className="flex flex-col md:flex-row md:items-center justify-between mb-4">
                                     <div>
-                                        <h3 className="text-xl font-bold">Junior Tech Lead [cite: 22]</h3>
-                                        <p className="text-purple-600 dark:text-purple-400 font-medium">Umuzi [cite: 23]</p>
+                                        <h3 className="text-xl font-bold">Junior Tech Lead</h3>
+                                        <p className="text-purple-600 dark:text-purple-400 font-medium">Umuzi</p>
                                     </div>
-                                    <p className="text-gray-600 dark:text-gray-400 mt-2 md:mt-0 font-medium">Feb '25 - Present [cite: 24]</p>
+                                    <p className="text-gray-600 dark:text-gray-400 mt-2 md:mt-0 font-medium">Feb '25 - Present</p>
                                 </div>
                                 <ul className="space-y-2 list-disc list-inside text-gray-700 dark:text-gray-300">
-                                    <li>Guided a cohort of junior developers in mastering full-stack web development using Node.js, MongoDB, and React[cite: 25].</li>
-                                    <li>Resolved complex technical issues using Git to drive performance in Agile cycles[cite: 25].</li>
-                                    <li>Championed daily stand-ups and retrospectives utilizing Agile and Kanban boards[cite: 26].</li>
+                                    <li>Guided a cohort of junior developers in mastering full-stack web development using Node.js, MongoDB, and React.</li>
+                                    <li>Resolved complex technical issues using Git to drive performance in Agile cycles.</li>
+                                    <li>Championed daily stand-ups and retrospectives utilizing Agile and Kanban boards.</li>
                                 </ul>
                             </div>
                         </AnimatedSection>
@@ -149,14 +149,14 @@ export default function Home() {
                             <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 border-l-4 border-purple-600 hover:-translate-y-1 transition-transform duration-300">
                                 <div className="flex flex-col md:flex-row md:items-center justify-between mb-4">
                                     <div>
-                                        <h3 className="text-xl font-bold">Remote Freelance Web Developer [cite: 27]</h3>
-                                        <p className="text-purple-600 dark:text-purple-400 font-medium">Monsfi Marketing [cite: 28]</p>
+                                        <h3 className="text-xl font-bold">Remote Freelance Web Developer</h3>
+                                        <p className="text-purple-600 dark:text-purple-400 font-medium">Monsfi Marketing</p>
                                     </div>
-                                    <p className="text-gray-600 dark:text-gray-400 mt-2 md:mt-0 font-medium">Jun '24 - Present [cite: 29]</p>
+                                    <p className="text-gray-600 dark:text-gray-400 mt-2 md:mt-0 font-medium">Jun '24 - Present</p>
                                 </div>
                                 <ul className="space-y-2 list-disc list-inside text-gray-700 dark:text-gray-300">
-                                    <li>Delivered responsive websites prioritizing mobile optimization and accessible design[cite: 31].</li>
-                                    <li>Leveraged SEO strategies and Google Analytics, resulting in a 20% increase in conversion rates[cite: 32].</li>
+                                    <li>Delivered responsive websites prioritizing mobile optimization and accessible design.</li>
+                                    <li>Leveraged SEO strategies and Google Analytics, resulting in a 20% increase in conversion rates.</li>
                                 </ul>
                             </div>
                         </AnimatedSection>
@@ -182,7 +182,7 @@ export default function Home() {
                         <AnimatedSection direction="up" delay={0.2}>
                             <Card className="h-full border-0 shadow-lg bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm">
                                 <CardHeader>
-                                    <CardTitle className="flex items-center">Frontend [cite: 10]</CardTitle>
+                                    <CardTitle className="flex items-center">Frontend</CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <div className="flex flex-wrap gap-3">
@@ -197,7 +197,7 @@ export default function Home() {
                         <AnimatedSection direction="up" delay={0.3}>
                             <Card className="h-full border-0 shadow-lg bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm">
                                 <CardHeader>
-                                    <CardTitle className="flex items-center">Backend [cite: 11]</CardTitle>
+                                    <CardTitle className="flex items-center">Backend</CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <div className="flex flex-wrap gap-3">
@@ -212,7 +212,7 @@ export default function Home() {
                         <AnimatedSection direction="up" delay={0.4}>
                             <Card className="h-full border-0 shadow-lg bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm">
                                 <CardHeader>
-                                    <CardTitle className="flex items-center">Database [cite: 12]</CardTitle>
+                                    <CardTitle className="flex items-center">Database</CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <div className="flex flex-wrap gap-3">
@@ -227,7 +227,7 @@ export default function Home() {
                         <AnimatedSection direction="up" delay={0.5}>
                             <Card className="h-full border-0 shadow-lg bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm">
                                 <CardHeader>
-                                    <CardTitle className="flex items-center">DevOps & Tools [cite: 13]</CardTitle>
+                                    <CardTitle className="flex items-center">DevOps & Tools</CardTitle>
                                 </CardHeader>
                                 <CardContent>
                                     <div className="flex flex-wrap gap-3">
@@ -268,12 +268,12 @@ export default function Home() {
                             <div className="bg-gray-50 dark:bg-gray-700 rounded-lg p-6 shadow-md hover:-translate-y-1 transition-transform">
                                 <div className="flex flex-col md:flex-row justify-between">
                                     <div>
-                                        <h4 className="text-xl font-semibold">BSc Honours in Computing [cite: 34]</h4>
-                                        <p className="text-purple-600 dark:text-purple-400">UNISA [cite: 36]</p>
-                                        <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">Focus: Advanced Computer Science logic and AI[cite: 38].</p>
-                                        <p className="text-xs text-gray-500 mt-1">Modules: Logic-Based Reasoning, AI, Research Methodology[cite: 39].</p>
+                                        <h4 className="text-xl font-semibold">BSc Honours in Computing</h4>
+                                        <p className="text-purple-600 dark:text-purple-400">UNISA</p>
+                                        <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">Focus: Advanced Computer Science logic and AI.</p>
+                                        <p className="text-xs text-gray-500 mt-1">Modules: Logic-Based Reasoning, AI, Research Methodology.</p>
                                     </div>
-                                    <p className="text-gray-600 dark:text-gray-400 mt-2 md:mt-0 font-medium">Jan '26 - Present [cite: 35]</p>
+                                    <p className="text-gray-600 dark:text-gray-400 mt-2 md:mt-0 font-medium">Jan '26 - Present</p>
                                 </div>
                             </div>
                         </AnimatedSection>
@@ -282,11 +282,11 @@ export default function Home() {
                             <div className="bg-gray-50 dark:bg-gray-700 rounded-lg p-6 shadow-md hover:-translate-y-1 transition-transform">
                                 <div className="flex flex-col md:flex-row justify-between">
                                     <div>
-                                        <h4 className="text-xl font-semibold">BCom Information Systems [cite: 39]</h4>
-                                        <p className="text-purple-600 dark:text-purple-400">University of Cape Town [cite: 40]</p>
-                                        <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">Core Coursework: Systems Analysis & Design, Database Management[cite: 42].</p>
+                                        <h4 className="text-xl font-semibold">BCom Information Systems</h4>
+                                        <p className="text-purple-600 dark:text-purple-400">University of Cape Town</p>
+                                        <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">Core Coursework: Systems Analysis & Design, Database Management.</p>
                                     </div>
-                                    <p className="text-gray-600 dark:text-gray-400 mt-2 md:mt-0 font-medium">Completed Jan '25 [cite: 41]</p>
+                                    <p className="text-gray-600 dark:text-gray-400 mt-2 md:mt-0 font-medium">Completed Jan '25</p>
                                 </div>
                             </div>
                         </AnimatedSection>
@@ -313,15 +313,15 @@ export default function Home() {
                                 <div className="space-y-4">
                                     <div className="flex items-center">
                                         <Mail className="w-5 h-5 text-purple-600 mr-3" />
-                                        <a href="mailto:rantshothabisomail@gmail.com" className="text-gray-700 dark:text-gray-300 hover:text-purple-600">rantshothabisomail@gmail.com [cite: 2]</a>
+                                        <a href="mailto:rantshothabisomail@gmail.com" className="text-gray-700 dark:text-gray-300 hover:text-purple-600">rantshothabisomail@gmail.com</a>
                                     </div>
                                     <div className="flex items-center">
                                         <Linkedin className="w-5 h-5 text-purple-600 mr-3" />
-                                        <a href="https://www.linkedin.com/in/thabiso-rantsho-34849b14a" target="_blank" className="text-gray-700 dark:text-gray-300 hover:text-purple-600">LinkedIn Profile [cite: 2]</a>
+                                        <a href="https://www.linkedin.com/in/thabiso-rantsho-34849b14a" target="_blank" className="text-gray-700 dark:text-gray-300 hover:text-purple-600">LinkedIn Profile</a>
                                     </div>
                                     <div className="flex items-center">
                                         <Github className="w-5 h-5 text-purple-600 mr-3" />
-                                        <a href="https://github.com/superusert" target="_blank" className="text-gray-700 dark:text-gray-300 hover:text-purple-600">GitHub Profile [cite: 2]</a>
+                                        <a href="https://github.com/superusert" target="_blank" className="text-gray-700 dark:text-gray-300 hover:text-purple-600">GitHub Profile</a>
                                     </div>
                                 </div>
                             </div>
@@ -338,8 +338,8 @@ export default function Home() {
 
             <footer className="py-8 px-4 bg-gray-800 dark:bg-gray-950 text-white relative">
                 <div className="container mx-auto max-w-6xl relative z-10 text-center">
-                    <h2 className="text-xl font-bold">Thabiso Rantsho [cite: 1]</h2>
-                    <p className="text-gray-400">Full Stack Developer [cite: 5]</p>
+                    <h2 className="text-xl font-bold">Thabiso Rantsho</h2>
+                    <p className="text-gray-400">Full Stack Developer</p>
                     <div className="mt-6 text-gray-400 text-sm">
                         <p>© {new Date().getFullYear()} Thabiso Rantsho. All rights reserved.</p>
                     </div>
