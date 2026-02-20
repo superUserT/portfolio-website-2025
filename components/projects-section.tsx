@@ -58,7 +58,7 @@ export const ProjectsSection = () => {
                 title: "Data Science Chat (Work in Progress)",
                 description:
                     "Enhance your data science skills with our interactive quizzes powered by ChatGPT. Get personalized questions, instant feedback, and track your progress.",
-                image: "/images/Footprint.png",
+                image: "/images/datachat.png",
                 content:
                     "Enhance your data science skills with our interactive quizzes powered by ChatGPT. Get personalized questions, instant feedback, and track your progress. Built with the MERN stack, it features user authentication, quiz creation, and real-time feedback.",
                 tags: ["React", "Express", "Mongo Atlas", "Gemini API"],
