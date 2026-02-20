@@ -45,15 +45,26 @@ export const ProjectsSection = () => {
                 link: "https://nmdconstruction.net/",
             },
             {
-                title: "Footprint Logger",
+                title: "Carbon Footprint Logger",
                 description:
-                    "A footprint logger is a tool that helps individuals track their carbon footprint and make more sustainable choices.",
+                    "A Carbon footprint logger is a tool that helps individuals track their carbon footprint and make more sustainable choices.",
                 image: "/images/Footprint.png",
                 content:
                     "Created a footprint logger using the MERN stack, which allows users to track their carbon footprint and make more sustainable choices.",
                 tags: ["React", "Express", "Mongo Atlas", "Node.js"],
                 link: "https://footprint-logger-frontend.onrender.com/",
             },
+            {
+                title: "LinkedOut (Coming Soon)",
+                description:
+                    "A Job Board Application for workers in your area. This platform connects gig workers to clients.",
+                image: "/images/linkedOut.png",
+                content:
+                    "A Job Board Application for workers in your area. This platform connects gig workers to clients. Built with the MERN stack, it features user authentication, job posting, and real-time notifications.",
+                tags: ["React", "Express", "Mongo Atlas", "Node.js"],
+                link: "https://frontend-dashboard-branch-production.up.railway.app/",
+            }
+            ,
         ],
         lowlevel: [
             {
