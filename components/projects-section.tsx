@@ -54,6 +54,16 @@ export const ProjectsSection = () => {
                 tags: ["React", "Express", "Mongo Atlas", "Node.js"],
                 link: "https://footprint-logger-frontend.onrender.com/",
             },
+             {
+                title: "Data Science Chat",
+                description:
+                    "Enhance your data science skills with our interactive quizzes powered by ChatGPT. Get personalized questions, instant feedback, and track your progress.",
+                image: "/images/Footprint.png",
+                content:
+                    "Enhance your data science skills with our interactive quizzes powered by ChatGPT. Get personalized questions, instant feedback, and track your progress. Built with the MERN stack, it features user authentication, quiz creation, and real-time feedback.",
+                tags: ["React", "Express", "Mongo Atlas", "Gemini API"],
+                link: "https://datachat-production-cd7c.up.railway.app/",
+            }
             {
                 title: "LinkedOut (Coming Soon)",
                 description:
