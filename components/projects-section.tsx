@@ -73,8 +73,7 @@ export const ProjectsSection = () => {
                     "A Job Board Application for workers in your area. This platform connects gig workers to clients. Built with the MERN stack, it features user authentication, job posting, and real-time notifications.",
                 tags: ["React", "Express", "Mongo Atlas", "Node.js"],
                 link: "https://frontend-dashboard-branch-production.up.railway.app/",
-            }
-            ,
+            },
         ],
         lowlevel: [
             {
