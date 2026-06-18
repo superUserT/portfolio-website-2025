@@ -1,5 +1,1 @@
-{
-  "node": {},
-  "edge": {},
-  "encryptionKey": "D+z24BjbGVHiXkXV8G0AKxkQiMJ9rPK9tjUQGFu7qc0="
-}
+{"node":{"8793cac1e42fbae00ffe7f0ba4777f21595e64c5":{"workers":{"app/page":"2104"},"layer":{"app/page":"action-browser"}}},"edge":{},"encryptionKey":"0azFHzEBA97DinUAN6F0U/cp64ZkRarPit3sRqxUaJE="}

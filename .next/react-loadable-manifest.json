@@ -1,1 +1,38 @@
-{}
+{
+  "components/client-animations.tsx -> @/components/animated-card": {
+    "id": 2237,
+    "files": [
+      "static/chunks/237.d8f9af7c5713e654.js"
+    ]
+  },
+  "components/client-animations.tsx -> @/components/animated-section": {
+    "id": 92271,
+    "files": [
+      "static/chunks/271.f41f1d662d3b70d2.js"
+    ]
+  },
+  "components/client-animations.tsx -> @/components/animated-text": {
+    "id": 49653,
+    "files": [
+      "static/chunks/653.e06bf5d7942c4a94.js"
+    ]
+  },
+  "components/client-animations.tsx -> @/components/particle-background": {
+    "id": 38497,
+    "files": [
+      "static/chunks/497.08db29af29d169e2.js"
+    ]
+  },
+  "components/client-animations.tsx -> @/components/ui/animated-gradient-background": {
+    "id": 11694,
+    "files": [
+      "static/chunks/694.d6f35318600bf4c6.js"
+    ]
+  },
+  "components/client-animations.tsx -> framer-motion": {
+    "id": 3668,
+    "files": [
+      "static/chunks/668.69b0ad4dec24412b.js"
+    ]
+  }
+}
