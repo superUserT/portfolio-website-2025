@@ -1,38 +1,38 @@
 {
   "components/client-animations.tsx -> @/components/animated-card": {
-    "id": "components/client-animations.tsx -> @/components/animated-card",
+    "id": 26335,
     "files": [
-      "static/chunks/_app-pages-browser_components_animated-card_tsx.js"
+      "static/chunks/335.eb66f5dce2211198.js"
     ]
   },
   "components/client-animations.tsx -> @/components/animated-section": {
-    "id": "components/client-animations.tsx -> @/components/animated-section",
+    "id": 94084,
     "files": [
-      "static/chunks/_app-pages-browser_components_animated-section_tsx.js"
+      "static/chunks/84.9b0a225a8d3bca58.js"
     ]
   },
   "components/client-animations.tsx -> @/components/animated-text": {
-    "id": "components/client-animations.tsx -> @/components/animated-text",
+    "id": 69139,
     "files": [
-      "static/chunks/_app-pages-browser_components_animated-text_tsx.js"
+      "static/chunks/139.04ac523c3918eb18.js"
     ]
   },
   "components/client-animations.tsx -> @/components/particle-background": {
-    "id": "components/client-animations.tsx -> @/components/particle-background",
+    "id": 56617,
     "files": [
-      "static/chunks/_app-pages-browser_components_particle-background_tsx.js"
+      "static/chunks/617.fabfc99b25a60cce.js"
     ]
   },
   "components/client-animations.tsx -> @/components/ui/animated-gradient-background": {
-    "id": "components/client-animations.tsx -> @/components/ui/animated-gradient-background",
+    "id": 20686,
     "files": [
-      "static/chunks/_app-pages-browser_components_ui_animated-gradient-background_tsx.js"
+      "static/chunks/686.3fae5ee120b276d3.js"
     ]
   },
   "components/client-animations.tsx -> framer-motion": {
-    "id": "components/client-animations.tsx -> framer-motion",
+    "id": 9351,
     "files": [
-      "static/chunks/_app-pages-browser_node_modules_pnpm_framer-motion_12_23_24__emotion_is-prop-valid_1_4_0_reac-1d9109.js"
+      "static/chunks/351.a197106c48f048bd.js"
     ]
   }
 }
