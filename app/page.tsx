@@ -108,6 +108,49 @@ export default function Home() {
                     </AnimatedSection>
 
                     <div className="space-y-8">
+                        {/* Junior Software Engineer - MicroLoan Foundation South Africa */}
+                        <AnimatedSection delay={0.1}>
+                            <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 border-l-4 border-purple-600 hover:-translate-y-1 transition-transform duration-300">
+                                <div className="flex flex-col md:flex-row md:items-center justify-between mb-4">
+                                    <div>
+                                        <h3 className="text-xl font-bold">Junior Software Engineer</h3>
+                                        <p className="text-purple-600 dark:text-purple-400 font-medium">MicroLoan Foundation South Africa</p>
+                                        <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">Hybrid · Full-time</p>
+                                    </div>
+                                    <p className="text-gray-600 dark:text-gray-400 mt-2 md:mt-0 font-medium">Mar '26 - Present</p>
+                                </div>
+
+                                <div className="space-y-4">
+                                    <div>
+                                        <h4 className="font-semibold text-gray-800 dark:text-gray-200 mb-2">System Architecture &amp; Technical Leadership</h4>
+                                        <ul className="space-y-2 list-disc list-inside text-gray-700 dark:text-gray-300">
+                                            <li>Spearheaded backend architecture, optimising relational databases (PostgreSQL), data caching (Redis), and background task queues (BullMQ) to enhance platform performance and reliability.</li>
+                                            <li>Partnered with executive stakeholders to translate complex commercial business needs into detailed, execution-ready technical specifications and architectural blueprints.</li>
+                                            <li>Mentored developers and company staff on system updates, new processes, and new system features.</li>
+                                            <li>Advised management on optimal technical infrastructure, hardware selection, and performance tuning to support system growth.</li>
+                                        </ul>
+                                    </div>
+
+                                    <div>
+                                        <h4 className="font-semibold text-gray-800 dark:text-gray-200 mb-2">Full-Stack Engineering &amp; Security</h4>
+                                        <ul className="space-y-2 list-disc list-inside text-gray-700 dark:text-gray-300">
+                                            <li>Engineered and maintained robust RESTful APIs and core business microservices using TypeScript and NestJS.</li>
+                                            <li>Developed responsive, high-performance client-side applications using React and Vite, ensuring seamless end-to-end integration and an optimized user experience.</li>
+                                            <li>Implemented enterprise-grade security protocols, including JWT authentication, Role-Based Access Control (RBAC), and strict input validation.</li>
+                                        </ul>
+                                    </div>
+
+                                    <div>
+                                        <h4 className="font-semibold text-gray-800 dark:text-gray-200 mb-2">External Integrations &amp; Vendor Management</h4>
+                                        <ul className="space-y-2 list-disc list-inside text-gray-700 dark:text-gray-300">
+                                            <li>Served as the primary technical point of contact for external partners, assisting stakeholders in evaluating technical vendors and defining specifications for new third-party systems.</li>
+                                            <li>Built, integrated, and maintained complex APIs to extend existing system functionality and automate data workflows.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </AnimatedSection>
+
                         {/* Software Developer Intern - Umuzi */}
                         <AnimatedSection delay={0.2}>
                             <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 border-l-4 border-purple-600 hover:-translate-y-1 transition-transform duration-300">
