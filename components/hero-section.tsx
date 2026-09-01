@@ -25,7 +25,7 @@ export function HeroSection() {
                                 className="text-4xl md:text-5xl font-bold tracking-tight"
                             />
                             <AnimatedText
-                                text="Junior Web Developer"
+                                text="Junior Software Developer"
                                 className="text-2xl md:text-3xl font-semibold mt-2 bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent"
                                 once={true}
                             />
@@ -36,7 +36,7 @@ export function HeroSection() {
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ delay: 0.6, duration: 0.8 }}
                         >
-                            A Junior Web Developer residing in Randburg South
+                            A Junior Software Developer residing in Randburg South
                             Africa, with experience in building websites and
                             enhancing software solutions. Proficient in a
                             variety of programming languages and technologies.
