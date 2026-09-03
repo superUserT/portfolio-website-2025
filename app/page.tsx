@@ -222,65 +222,125 @@ export default function Home() {
                     </AnimatedSection>
 
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-                        <AnimatedSection direction="up" delay={0.2}>
-                            <Card className="h-full border-0 shadow-lg bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm">
-                                <CardHeader>
-                                    <CardTitle className="flex items-center">Frontend</CardTitle>
-                                </CardHeader>
-                                <CardContent>
-                                    <div className="flex flex-wrap gap-3">
-                                        {["HTML5", "CSS3", "JavaScript (ES6+)", "React.js"].map((skill) => (
-                                            <Badge key={skill} variant="secondary" className="py-2 px-4">{skill}</Badge>
-                                        ))}
-                                    </div>
-                                </CardContent>
-                            </Card>
-                        </AnimatedSection>
-
-                        <AnimatedSection direction="up" delay={0.3}>
-                            <Card className="h-full border-0 shadow-lg bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm">
-                                <CardHeader>
-                                    <CardTitle className="flex items-center">Backend</CardTitle>
-                                </CardHeader>
-                                <CardContent>
-                                    <div className="flex flex-wrap gap-3">
-                                        {["Node.js", "Express", "Python", "C#", ".Net Core", "REST APIs"].map((skill) => (
-                                            <Badge key={skill} variant="secondary" className="py-2 px-4">{skill}</Badge>
-                                        ))}
-                                    </div>
-                                </CardContent>
-                            </Card>
-                        </AnimatedSection>
-
-                        <AnimatedSection direction="up" delay={0.4}>
-                            <Card className="h-full border-0 shadow-lg bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm">
-                                <CardHeader>
-                                    <CardTitle className="flex items-center">Database</CardTitle>
-                                </CardHeader>
-                                <CardContent>
-                                    <div className="flex flex-wrap gap-3">
-                                        {["SQL", "PostgreSQL", "MongoDB"].map((skill) => (
-                                            <Badge key={skill} variant="secondary" className="py-2 px-4">{skill}</Badge>
-                                        ))}
-                                    </div>
-                                </CardContent>
-                            </Card>
-                        </AnimatedSection>
-
-                        <AnimatedSection direction="up" delay={0.5}>
-                            <Card className="h-full border-0 shadow-lg bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm">
-                                <CardHeader>
-                                    <CardTitle className="flex items-center">DevOps & Tools</CardTitle>
-                                </CardHeader>
-                                <CardContent>
-                                    <div className="flex flex-wrap gap-3">
-                                        {["Git", "Docker", "Jest (Testing)", "CI/CD Pipelines"].map((skill) => (
-                                            <Badge key={skill} variant="secondary" className="py-2 px-4">{skill}</Badge>
-                                        ))}
-                                    </div>
-                                </CardContent>
-                            </Card>
-                        </AnimatedSection>
+                        {[
+                            {
+                                title: "Frontend",
+                                accent: "border-t-4 border-blue-500",
+                                badge:
+                                    "border-blue-300 bg-blue-100 text-blue-800 hover:bg-blue-200 dark:border-blue-700 dark:bg-blue-900/40 dark:text-blue-200",
+                                skills: [
+                                    "HTML5",
+                                    "CSS3",
+                                    "JavaScript (ES6+)",
+                                    "TypeScript",
+                                    "React",
+                                    "Next.js",
+                                    "Vite",
+                                    "Tailwind CSS",
+                                ],
+                            },
+                            {
+                                title: "Backend",
+                                accent: "border-t-4 border-emerald-500",
+                                badge:
+                                    "border-emerald-300 bg-emerald-100 text-emerald-800 hover:bg-emerald-200 dark:border-emerald-700 dark:bg-emerald-900/40 dark:text-emerald-200",
+                                skills: [
+                                    "Node.js",
+                                    "NestJS",
+                                    "Express",
+                                    "Python",
+                                    "FastAPI",
+                                    "Flask",
+                                    "C#",
+                                    ".NET Core",
+                                    "REST APIs",
+                                ],
+                            },
+                            {
+                                title: "Data & Infrastructure",
+                                accent: "border-t-4 border-amber-500",
+                                badge:
+                                    "border-amber-300 bg-amber-100 text-amber-800 hover:bg-amber-200 dark:border-amber-700 dark:bg-amber-900/40 dark:text-amber-200",
+                                skills: [
+                                    "PostgreSQL",
+                                    "SQL",
+                                    "MongoDB",
+                                    "Redis",
+                                    "BullMQ",
+                                    "Celery",
+                                    "MinIO",
+                                    "TypeORM",
+                                ],
+                            },
+                            {
+                                title: "Machine Learning & AI",
+                                accent: "border-t-4 border-pink-500",
+                                badge:
+                                    "border-pink-300 bg-pink-100 text-pink-800 hover:bg-pink-200 dark:border-pink-700 dark:bg-pink-900/40 dark:text-pink-200",
+                                skills: [
+                                    "XGBoost",
+                                    "scikit-learn",
+                                    "Pandas",
+                                    "NLP",
+                                    "Vision Language Models",
+                                    "Gemini API",
+                                ],
+                            },
+                            {
+                                title: "DevOps & Tools",
+                                accent: "border-t-4 border-purple-500",
+                                badge:
+                                    "border-purple-300 bg-purple-100 text-purple-800 hover:bg-purple-200 dark:border-purple-700 dark:bg-purple-900/40 dark:text-purple-200",
+                                skills: [
+                                    "Git",
+                                    "Docker",
+                                    "Docker Compose",
+                                    "CI/CD Pipelines",
+                                    "Jest",
+                                    "Railway",
+                                ],
+                            },
+                            {
+                                title: "Security",
+                                accent: "border-t-4 border-rose-500",
+                                badge:
+                                    "border-rose-300 bg-rose-100 text-rose-800 hover:bg-rose-200 dark:border-rose-700 dark:bg-rose-900/40 dark:text-rose-200",
+                                skills: [
+                                    "JWT Authentication",
+                                    "Role-Based Access Control",
+                                    "Input Validation",
+                                ],
+                            },
+                        ].map((category, i) => (
+                            <AnimatedSection
+                                key={category.title}
+                                direction="up"
+                                delay={0.2 + i * 0.1}
+                            >
+                                <Card
+                                    className={`h-full border-0 ${category.accent} shadow-lg bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm`}
+                                >
+                                    <CardHeader>
+                                        <CardTitle className="flex items-center">
+                                            {category.title}
+                                        </CardTitle>
+                                    </CardHeader>
+                                    <CardContent>
+                                        <div className="flex flex-wrap gap-3">
+                                            {category.skills.map((skill) => (
+                                                <Badge
+                                                    key={skill}
+                                                    variant="outline"
+                                                    className={`py-2 px-4 text-sm font-medium transition-colors ${category.badge}`}
+                                                >
+                                                    {skill}
+                                                </Badge>
+                                            ))}
+                                        </div>
+                                    </CardContent>
+                                </Card>
+                            </AnimatedSection>
+                        ))}
                     </div>
                 </div>
             </section>
@@ -289,7 +349,7 @@ export default function Home() {
             <section className="py-16 px-4 bg-white dark:bg-gray-800 relative">
                 <div className="container mx-auto max-w-6xl relative z-10">
                     <AnimatedSection delay={0.2}>
-                        <GithubActivity username="superusert" />
+                        <GithubActivity />
                     </AnimatedSection>
                 </div>
             </section>
