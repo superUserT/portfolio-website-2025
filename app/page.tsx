@@ -415,7 +415,7 @@ export default function Home() {
                                         <p className="text-purple-600 dark:text-purple-400">University of Cape Town</p>
                                         <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">Core Coursework: Systems Analysis & Design, Database Management.</p>
                                     </div>
-                                    <p className="text-gray-600 dark:text-gray-400 mt-2 md:mt-0 font-medium">Completed Jan '25</p>
+                                    <p className="text-gray-600 dark:text-gray-400 mt-2 md:mt-0 font-medium">Completed Jan '23</p>
                                 </div>
                             </div>
                         </AnimatedSection>
