@@ -371,6 +371,19 @@ export default function Home() {
                             <div className="bg-gray-50 dark:bg-gray-700 rounded-lg p-6 shadow-md hover:-translate-y-1 transition-transform">
                                 <div className="flex flex-col md:flex-row justify-between">
                                     <div>
+                                        <h4 className="text-xl font-semibold">MSc in Financial Engineering</h4>
+                                        <p className="text-purple-600 dark:text-purple-400">WorldQuant University</p>
+                                        <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">Focus: Quantitative finance, stochastic modelling, and machine learning for financial markets.</p>
+                                    </div>
+                                    <p className="text-gray-600 dark:text-gray-400 mt-2 md:mt-0 font-medium">Oct '26 - Present</p>
+                                </div>
+                            </div>
+                        </AnimatedSection>
+
+                        <AnimatedSection direction="left" delay={0.3}>
+                            <div className="bg-gray-50 dark:bg-gray-700 rounded-lg p-6 shadow-md hover:-translate-y-1 transition-transform">
+                                <div className="flex flex-col md:flex-row justify-between">
+                                    <div>
                                         <h4 className="text-xl font-semibold">BSc Honours in Computing</h4>
                                         <p className="text-purple-600 dark:text-purple-400">UNISA</p>
                                         <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">Focus: Advanced Computer Science logic and AI.</p>
@@ -381,7 +394,20 @@ export default function Home() {
                             </div>
                         </AnimatedSection>
 
-                        <AnimatedSection direction="left" delay={0.3}>
+                        <AnimatedSection direction="left" delay={0.4}>
+                            <div className="bg-gray-50 dark:bg-gray-700 rounded-lg p-6 shadow-md hover:-translate-y-1 transition-transform">
+                                <div className="flex flex-col md:flex-row justify-between">
+                                    <div>
+                                        <h4 className="text-xl font-semibold">BEng in Robotics</h4>
+                                        <p className="text-purple-600 dark:text-purple-400">IU International University of Applied Sciences</p>
+                                        <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">Focus: Robotics, control systems, and embedded engineering.</p>
+                                    </div>
+                                    <p className="text-gray-600 dark:text-gray-400 mt-2 md:mt-0 font-medium">May '25 - May '26</p>
+                                </div>
+                            </div>
+                        </AnimatedSection>
+
+                        <AnimatedSection direction="left" delay={0.5}>
                             <div className="bg-gray-50 dark:bg-gray-700 rounded-lg p-6 shadow-md hover:-translate-y-1 transition-transform">
                                 <div className="flex flex-col md:flex-row justify-between">
                                     <div>
