@@ -3,7 +3,15 @@
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { ExternalLink, Code, Cpu, Gamepad2, Smartphone } from "lucide-react";
+import {
+    ExternalLink,
+    Code,
+    Cpu,
+    Gamepad2,
+    Smartphone,
+    BrainCircuit,
+    Lock,
+} from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
     Card,
@@ -31,6 +39,7 @@ export const ProjectsSection = () => {
         { id: "lowlevel", label: "Low Level & Robotics", icon: Cpu },
         { id: "games", label: "Fun & Games", icon: Gamepad2 },
         { id: "mobile", label: "Mobile Development", icon: Smartphone },
+        { id: "mlai", label: "Machine Learning & AI", icon: BrainCircuit },
     ];
 
     const projects = {
@@ -129,6 +138,40 @@ export const ProjectsSection = () => {
                 link: "https://drive.google.com/file/d/1TLoJiGb10PaD3aO_RXxRWslvz0o7UmM8/view",
             },
         ],
+        mlai: [
+            {
+                title: "QS ML Estimator",
+                description:
+                    "Full-stack ML application that forecasts a project's final post-construction cost from its Bill of Quantities.",
+                image: "/images/Boq_estimation.png",
+                content:
+                    "Containerised microservices system: a Vision Language Model (Gemini) extracts cost drivers and line items from tender and final-account PDFs, and an XGBoost regression pipeline predicts against inflation-adjusted actuals. React/Vite frontend, NestJS API gateway (TypeORM/Postgres), FastAPI + Celery extraction worker, and a Python ML service exposing train, predict and model-report endpoints. MinIO for document storage, Redis for queuing, Docker Compose for orchestration.",
+                tags: [
+                    "Python",
+                    "XGBoost",
+                    "Gemini VLM",
+                    "FastAPI",
+                    "Celery",
+                    "NestJS",
+                    "React/Vite",
+                    "PostgreSQL",
+                    "Docker",
+                ],
+                link: "",
+                private: true,
+            },
+            {
+                title: "Research Risk Monitor",
+                description:
+                    "NLP decision-support web app that surfaces collaboration risks and opportunities from construction project stakeholder narratives.",
+                image: "/images/Decision_support.png",
+                content:
+                    "Applies natural language processing to stakeholder narratives and feedback during the pre-construction phase, translating a validated human-centric action plan into a working AI-enabled decision-support architecture. Built in Python with Flask and containerised with Docker Compose for reproducible deployment.",
+                tags: ["Python", "Flask", "NLP", "Docker Compose"],
+                link: "",
+                private: true,
+            },
+        ],
     };
 
     return (
@@ -207,23 +250,34 @@ export const ProjectsSection = () => {
                                     </div>
                                 </CardContent>
                                 <CardFooter>
-                                    <Button
-                                        asChild
-                                        variant="outline"
-                                        className="w-full relative overflow-hidden group bg-transparent"
-                                    >
-                                        <Link
-                                            href={project.link}
-                                            target="_blank"
-                                            rel="noopener noreferrer"
+                                    {project.private ? (
+                                        <Button
+                                            variant="outline"
+                                            disabled
+                                            className="w-full bg-transparent cursor-not-allowed"
                                         >
-                                            <ExternalLink className="w-4 h-4 mr-2" />
-                                            <span className="relative z-10">
-                                                View Project
-                                            </span>
-                                            <span className="absolute inset-0 bg-purple-600 opacity-0 group-hover:opacity-10 transition-opacity duration-300"></span>
-                                        </Link>
-                                    </Button>
+                                            <Lock className="w-4 h-4 mr-2" />
+                                            <span>Private Project</span>
+                                        </Button>
+                                    ) : (
+                                        <Button
+                                            asChild
+                                            variant="outline"
+                                            className="w-full relative overflow-hidden group bg-transparent"
+                                        >
+                                            <Link
+                                                href={project.link}
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                <ExternalLink className="w-4 h-4 mr-2" />
+                                                <span className="relative z-10">
+                                                    View Project
+                                                </span>
+                                                <span className="absolute inset-0 bg-purple-600 opacity-0 group-hover:opacity-10 transition-opacity duration-300"></span>
+                                            </Link>
+                                        </Button>
+                                    )}
                                 </CardFooter>
                             </Card>
                         </AnimatedCard>
