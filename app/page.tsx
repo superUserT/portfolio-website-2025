@@ -375,7 +375,7 @@ export default function Home() {
                                         <p className="text-purple-600 dark:text-purple-400">WorldQuant University</p>
                                         <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">Focus: Quantitative finance, stochastic modelling, and machine learning for financial markets.</p>
                                     </div>
-                                    <p className="text-gray-600 dark:text-gray-400 mt-2 md:mt-0 font-medium">Oct '26 - Present</p>
+                                    <p className="text-gray-600 dark:text-gray-400 mt-2 md:mt-0 font-medium">Starting in October 2026</p>
                                 </div>
                             </div>
                         </AnimatedSection>
@@ -389,7 +389,7 @@ export default function Home() {
                                         <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">Focus: Advanced Computer Science logic and AI.</p>
                                         <p className="text-xs text-gray-500 mt-1">Modules: Logic-Based Reasoning, AI, Research Methodology.</p>
                                     </div>
-                                    <p className="text-gray-600 dark:text-gray-400 mt-2 md:mt-0 font-medium">Jan '26 - Present</p>
+                                    <p className="text-gray-600 dark:text-gray-400 mt-2 md:mt-0 font-medium">Jan '26 - Dec '27</p>
                                 </div>
                             </div>
                         </AnimatedSection>
@@ -402,7 +402,7 @@ export default function Home() {
                                         <p className="text-purple-600 dark:text-purple-400">IU International University of Applied Sciences</p>
                                         <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">Focus: Robotics, control systems, and embedded engineering.</p>
                                     </div>
-                                    <p className="text-gray-600 dark:text-gray-400 mt-2 md:mt-0 font-medium">May '25 - May '26</p>
+                                    <p className="text-gray-600 dark:text-gray-400 mt-2 md:mt-0 font-medium">May '25 - May '28</p>
                                 </div>
                             </div>
                         </AnimatedSection>
